@@ -134,7 +134,6 @@ export class UpdateStandingsComponent implements OnInit {
     // update race standings
     newResult.name = transferPlayer.name;
     newResult.team = transferPlayer.team;
-    newResult.points += transferPlayer.points;
   }
 
   allowDrop(ev) {
