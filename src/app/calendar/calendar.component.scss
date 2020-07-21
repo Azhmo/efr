@@ -25,3 +25,18 @@
   text-shadow: none;
   box-shadow: 2px 2px black;
 }
+
+@media screen and (max-width: 720px) {
+  .wrapper {
+    display: block;
+
+    .half {
+      text-align: center;
+    }
+
+    .section p.break {
+      width: 100%;
+      padding: 10px 0;
+    }
+  }
+}

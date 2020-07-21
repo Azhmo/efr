@@ -8,6 +8,10 @@
   top: 0;
   width: 100%;
 
+  .container {
+    width: 100%;
+  }
+
   .f1-logo,
   .xbox-logo {
     width: 30px;
@@ -32,6 +36,32 @@
     margin: 0 10px;
     &.nav-link:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar {
+    padding: 5px;
+    a {
+      font-size: 12px;
+    }
+    .logo-wrapper {
+      a {
+        font-size: 14px;
+      }
+      text-align: center;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .f1-logo {
+      width: 25px;
+      margin-left: 10px;
+    }
+
+    .xbox-logo {
+      width: 15px;
     }
   }
 }
