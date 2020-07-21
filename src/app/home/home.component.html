@@ -1,1 +1,20 @@
-<p>home works!</p>
+<div class="wrapper" *ngIf="players && teams">
+  <table>
+    <tr>
+      <th width="50%">Echipa</th>
+      <th width="50%">Membrii</th>
+    </tr>
+    <tr *ngFor="let team of teams; index as i">
+      <td class="{{ team.name.toString().split(' ').join('') | lowercase }}">
+        <img class="car" src="assets/{{ team.name }}.png" /><span>{{
+          team.name
+        }}</span>
+      </td>
+      <td class="{{ team.name.toString().split(' ').join('') | lowercase }}">
+        <p *ngFor="let player of players | filterByTeam: team.name">
+          {{ player.name }}
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>

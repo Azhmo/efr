@@ -1,15 +1,24 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from '../http/http.service';
+import { PlayerRank, F1TeamRank } from '../common';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  players: PlayerRank[];
+  teams: F1TeamRank[];
 
-  constructor() { }
+  constructor(private httpService: HttpService) {}
 
   ngOnInit(): void {
+    this.httpService.getTeamsRank().subscribe((response) => {
+      this.teams = response;
+    });
+    this.httpService.getPlayersRank().subscribe((response) => {
+      this.players = response;
+    });
   }
-
 }

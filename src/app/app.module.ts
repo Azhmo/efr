@@ -11,6 +11,7 @@ import { HttpService } from './http/http.service';
 import { UpdateStandingsComponent } from './update-standings/update-standings.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FilterPipe } from './filter.pipe';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     UpdateStandingsComponent,
     HomeComponent,
     NavbarComponent,
+    FilterPipe,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [HttpService],
