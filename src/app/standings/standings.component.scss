@@ -1,0 +1,22 @@
+.section p {
+  font-family: F1;
+  text-shadow: 2px 2px black;
+}
+
+.section span {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.box {
+  font-family: F1;
+  text-align: center;
+  background-color: #877751;
+  width: 300px;
+  height: 150px;
+  border-radius: 4px;
+  box-shadow: 2px 2px black;
+  color: black;
+}

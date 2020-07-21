@@ -1,0 +1,17 @@
+tr:nth-child(2) {
+  .medal::before {
+    content: "🥇";
+  }
+}
+
+tr:nth-child(3) {
+  .medal::before {
+    content: "🥈";
+  }
+}
+
+tr:nth-child(4) {
+  .medal::before {
+    content: "🥉";
+  }
+}

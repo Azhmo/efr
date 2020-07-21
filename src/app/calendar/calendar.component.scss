@@ -1,0 +1,31 @@
+body {
+  background-image: url(./../../assets/MjtxO6s-world-map-background.jpg);
+}
+
+.section p {
+  font-family: F1;
+  text-shadow: 2px 2px black;
+}
+
+.section span {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.section .date {
+  font-family: F1 Bold;
+  font-size: 16px;
+  margin-left: 0;
+}
+
+.section p.break {
+  background-color: #877751;
+  color: black;
+  width: 82%;
+  padding: 10px;
+  border-radius: 4px;
+  text-shadow: none;
+  box-shadow: 2px 2px black;
+}

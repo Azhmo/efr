@@ -1,0 +1,50 @@
+<div class="wrapper">
+  <table>
+    <tr>
+      <th width="10%">Pozitie</th>
+      <th>Nume</th>
+      <th>Echipa</th>
+    </tr>
+    <tr
+      *ngFor="let player of players; index as i"
+      draggable="true"
+      (dragstart)="drag($event)"
+    >
+      <td>
+        <span class="medal"></span><span class="position">{{ i + 1 }}</span>
+      </td>
+      <td>{{ player.name }}</td>
+      <td>
+        <img class="car" src="./../../assets/{{ player.team }}.png" />
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th width="30%">Pozitie</th>
+      <th>Nume</th>
+      <th>Echipa</th>
+      <th width="10%">Puncte</th>
+    </tr>
+    <tr
+      *ngFor="let result of results; index as i"
+      draggable="true"
+      (dragover)="allowDrop($event)"
+      (drop)="drop($event)"
+    >
+      <td>
+        <span class="medal"></span
+        ><span class="position">{{ result.position }}</span>
+      </td>
+      <td>{{ result.name }}</td>
+      <td>
+        <img class="car" src="./../../assets/{{ result.team }}.png" />
+      </td>
+      <td>{{ result.points }}</td>
+    </tr>
+  </table>
+</div>
+<div class="wrapper">
+  <Button (click)="generatePlayerStandings()">Generate players</Button>
+  <Button (click)="generateTeamStandings()">Generate teams</Button>
+</div>

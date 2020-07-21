@@ -1,0 +1,27 @@
+<div class="title">
+  <img class="cup-logo" src="./../../assets/cup-logo.png" />
+  <h1>Clasament Echipe F1 RO Championship 2020</h1>
+  <img class="xbox-logo" src="./../../assets/xbox-logo.png" />
+</div>
+<div class="wrapper">
+  <table>
+    <tr>
+      <th width="10%">Pozitie</th>
+      <th>Echipa</th>
+      <th width="20%">+ / -</th>
+      <th width="10%">Punctaj</th>
+    </tr>
+    <tr *ngFor="let team of teams; index as i">
+      <td>
+        <span class="medal"></span><span class="position">{{ i + 1 }}</span>
+      </td>
+      <td class="{{ team.name.toString().split(' ').join('') | lowercase }}">
+        {{ team.name }}
+      </td>
+      <td [ngClass]="{ down: team.gain < 0, up: team.gain > 0 }">
+        <span class="arrow"></span>{{ showGain(team.gain) || "-" }}
+      </td>
+      <td>{{ team.points }}</td>
+    </tr>
+  </table>
+</div>
