@@ -4,12 +4,14 @@ import { StandingsComponent } from './standings/standings.component';
 import { ConstructorStandingsComponent } from './constructor-standings/constructor-standings.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { UpdateStandingsComponent } from './update-standings/update-standings.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: 'standings', component: StandingsComponent },
   { path: 'constructor-standings', component: ConstructorStandingsComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'update', component: UpdateStandingsComponent },
+  { path: '', component: HomeComponent },
 ];
 
 @NgModule({

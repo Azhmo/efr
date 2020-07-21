@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  background-color: #877751;
+  color: black;
+  box-shadow: 2px 2px black;
+  padding: 24px;
+
+  .f1-logo,
+  .xbox-logo {
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .xbox-logo {
+    margin-right: 30px;
+  }
+
+  a {
+    vertical-align: middle;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    &.nav-link:hover {
+      text-decoration: underline;
+    }
+  }
+}

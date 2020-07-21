@@ -9,6 +9,8 @@ import { ConstructorStandingsComponent } from './constructor-standings/construct
 import { CalendarComponent } from './calendar/calendar.component';
 import { HttpService } from './http/http.service';
 import { UpdateStandingsComponent } from './update-standings/update-standings.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { UpdateStandingsComponent } from './update-standings/update-standings.co
     ConstructorStandingsComponent,
     CalendarComponent,
     UpdateStandingsComponent,
+    HomeComponent,
+    NavbarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [HttpService],
