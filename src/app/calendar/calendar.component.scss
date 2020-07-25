@@ -1,6 +1,7 @@
+@import './../../colors.scss';
+
 .section p {
   font-family: F1;
-  text-shadow: 2px 2px black;
 }
 
 .section span {
@@ -17,13 +18,12 @@
 }
 
 .section p.break {
-  background-color: #877751;
-  color: black;
+  background-color: $primary;
+  color: $secondary;
   width: 82%;
   padding: 10px;
   border-radius: 4px;
   text-shadow: none;
-  box-shadow: 2px 2px black;
 }
 
 @media screen and (max-width: 720px) {

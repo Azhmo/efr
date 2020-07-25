@@ -1,6 +1,8 @@
+@import './../../colors.scss';
+
 .section p {
   font-family: F1;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px $shadow;
 }
 
 .section span {
@@ -13,10 +15,10 @@
 .box {
   font-family: F1;
   text-align: center;
-  background-color: #877751;
+  background-color: $primary;
   width: 300px;
   height: 150px;
   border-radius: 4px;
-  box-shadow: 2px 2px black;
-  color: black;
+  box-shadow: none;
+  color: $secondary;
 }

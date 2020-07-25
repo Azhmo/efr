@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import './colors.scss';
+
 body {
-  background-image: url("./assets/carbon-wallpaper.jpg");
-  color: #877751;
+  background-color:$background;
+  color: $primary;
   font-family: F1;
   margin: 0;
 }
@@ -18,7 +20,7 @@ body {
 
 .title {
   font-family: F1 Bold;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px $secondary;
   text-align: center;
 }
 
@@ -52,9 +54,9 @@ table {
 }
 
 th {
-  background-color: #877751;
-  color: black;
-  box-shadow: 2px 2px black;
+  background-color: $primary;
+  color: $secondary;
+  box-shadow: none;
 }
 
 th:first-child {
@@ -149,34 +151,34 @@ tr:nth-child(4) {
 }
 
 .mercedes {
-  color: #04d1bd;
+  color: #00D2BE;
 }
 .ferrari {
-  color: #fe0202;
+  color: #C00000;
 }
 .redbull {
-  color: #1914dc;
+  color: #0600EF;
 }
 .haas {
-  color: #656565;
+  color: #787878;
 }
 .racingpoint {
-  color: #ff90c3;
+  color: #F596C8;
 }
-.tororosso {
-  color: #2e65db;
+.alphatauri {
+  color: #242E3A;
 }
 .mclaren {
-  color: #fe8703;
+  color: #FF8700;
 }
 .alfaromeo {
-  color: #970101;
+  color: #960000;
 }
 .renault {
-  color: #fff400;
+  color: #F2D62E;
 }
 .williams {
-  color: white;
+  color: #0082FA;
 }
 
 @media screen and (max-width: 720px) {
