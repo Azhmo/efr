@@ -1,14 +1,16 @@
 [
-  { "name": "XRL Azhmo", "team": "-", "gain": 0, "points": 0 },
-  { "name": "Croc82", "team": "-", "gain": 0, "points": 0 },
-  { "name": "WiseUdr85", "team": "-", "gain": 0, "points": 0 },
-  { "name": "AgonizedHoney3", "team": "-", "gain": 0, "points": 0 },
-  { "name": "aileneiclaudiu", "team": "-", "gain": 0, "points": 0 },
-  { "name": "AndroidSpace550", "team": "-", "gain": 0, "points": 0 },
-  { "name": "BogdanTgb", "team": "-", "gain": 0, "points": 0 },
-  { "name": "Jackson", "team": "-", "gain": 0, "points": 0 },
-  { "name": "Ghost LANKY", "team": "-", "gain": 0, "points": 0 },
-  { "name": "RatzKatz92", "team": "-", "gain": 0, "points": 0 },
-  { "name": "PresecanTudy007", "team": "-", "gain": 0, "points": 0 },
-  { "name": "Mihnea11", "team": "-", "gain": 0, "points": 0 }
+  { "name": "XRL Azhmo", "team": "Alfa Romeo", "gain": 0, "points": 0 },
+  { "name": "aileneiclaudiu", "team": "Alfa Romeo", "gain": 0, "points": 0 },
+  { "name": "Croc82", "team": "Renault", "gain": 0, "points": 0 },
+  { "name": "AndroidSpace550", "team": "Renault", "gain": 0, "points": 0 },
+  { "name": "WiseUdr85", "team": "Ferrari", "gain": 0, "points": 0 },
+  { "name": "Mihnea11", "team": "Ferrari", "gain": 0, "points": 0 },
+  { "name": "AgonizedHoney3", "team": "Mercedes", "gain": 0, "points": 0 },
+  { "name": "PresecanTudy007", "team": "Mercedes", "gain": 0, "points": 0 },
+  { "name": "Zbuggy79", "team": "Racing Point", "gain": 0, "points": 0 },
+  { "name": "Kapitanu95", "team": "Racing Point", "gain": 0, "points": 0 },
+  { "name": "BogdanTgb", "team": "Alpha Tauri", "gain": 0, "points": 0 },
+  { "name": "Ghost LANKY", "team": "Alpha Tauri", "gain": 0, "points": 0 },
+  { "name": "Jackson", "team": "RedBull", "gain": 0, "points": 0 },
+  { "name": "RatzKatz92", "team": "RedBull", "gain": 0, "points": 0 }
 ]
