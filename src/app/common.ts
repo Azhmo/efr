@@ -13,7 +13,8 @@ export type F1Team =
   | 'Alfa Romeo'
   | 'Toro Rosso'
   | 'Haas'
-  | 'Williams';
+  | 'Williams'
+  | '-';
 
 export interface PlayerRank extends Player {
   gain: number;

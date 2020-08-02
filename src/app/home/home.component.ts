@@ -14,11 +14,15 @@ export class HomeComponent implements OnInit {
   constructor(private httpService: HttpService) {}
 
   ngOnInit(): void {
-    this.httpService.getTeamsRank().subscribe((response) => {
-      this.teams = response;
-    });
+    this.getTeamsRank();
     this.httpService.getPlayersRank().subscribe((response) => {
       this.players = response;
+    });
+  }
+
+  getTeamsRank() {
+    this.httpService.getTeamsRank().subscribe((response) => {
+      this.teams = response;
     });
   }
 }

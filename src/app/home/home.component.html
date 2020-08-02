@@ -4,7 +4,7 @@
       <th width="50%">Echipa</th>
       <th width="50%">Membri</th>
     </tr>
-    <tr *ngFor="let team of teams; index as i">
+    <tr *ngFor="let team of teams">
       <td class="{{ team.name.toString().split(' ').join('') | lowercase }}">
         <img class="car" src="assets/{{ team.name }}.png" /><span>{{
           team.name

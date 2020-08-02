@@ -12,6 +12,9 @@ import { UpdateStandingsComponent } from './update-standings/update-standings.co
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FilterPipe } from './filter.pipe';
+import { RandomOrderPipe } from './random-order.pipe';
+import { RandomTeamComponent } from './random-team/random-team.component';
+import { FilterByNumberPipe } from './filter-by-number.pipe';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { FilterPipe } from './filter.pipe';
     HomeComponent,
     NavbarComponent,
     FilterPipe,
+    RandomOrderPipe,
+    RandomTeamComponent,
+    FilterByNumberPipe,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [HttpService],
