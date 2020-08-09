@@ -1,1 +1,73 @@
-[{"name":"AgonizedHoney3","team":"Mercedes","gain":0,"points":52},{"name":"XRL Tudy","team":"Mercedes","gain":0,"points":28},{"name":"XRL Azhmo","team":"Alfa Romeo","gain":0,"points":27},{"name":"WiseUdr85","team":"Ferrari","gain":0,"points":27},{"name":"Mihnea","team":"Ferrari","gain":0,"points":20},{"name":"Zbuggy79","team":"Racing Point","gain":0,"points":12},{"name":"AndroidSpace550","team":"Renault","gain":0,"points":11},{"name":"BogdanTgb","team":"Alpha Tauri","gain":0,"points":10},{"name":"Croc82","team":"Renault","gain":0,"points":8},{"name":"aileneiclaudiu","team":"Alfa Romeo","gain":0,"points":8},{"name":"Kapitanu95","team":"Racing Point","gain":0,"points":0},{"name":"Ghost LANKY","team":"Alpha Tauri","gain":0,"points":0},{"name":"Jackson","team":"RedBull","gain":0,"points":0},{"name":"RatzKatz92","team":"RedBull","gain":0,"points":0}]
+[{
+    "name": "AgonizedHoney3",
+    "team": "Mercedes",
+    "gain": 0,
+    "points": 52
+  },
+  {
+    "name": "XRL Tudy",
+    "team": "Mercedes",
+    "gain": 0,
+    "points": 28
+  },
+  {
+    "name": "XRL Azhmo",
+    "team": "Alfa Romeo",
+    "gain": 0,
+    "points": 27
+  },
+  {
+    "name": "WiseUdr85",
+    "team": "Ferrari",
+    "gain": 0,
+    "points": 27
+  },
+  {
+    "name": "Mihnea",
+    "team": "Ferrari",
+    "gain": 0,
+    "points": 20
+  },
+  {
+    "name": "Zbuggy79",
+    "team": "Racing Point",
+    "gain": 0,
+    "points": 12
+  },
+  {
+    "name": "XRL Filip",
+    "team": "McLaren",
+    "gain": 0,
+    "points": 0
+  }, {
+    "name": "BogdanTgb",
+    "team": "Alpha Tauri",
+    "gain": 0,
+    "points": 10
+  }, {
+    "name": "Croc82",
+    "team": "Racing Point",
+    "gain": 0,
+    "points": 8
+  }, {
+    "name": "aileneiclaudiu",
+    "team": "Alfa Romeo",
+    "gain": 0,
+    "points": 8
+  }, {
+    "name": "Ghost LANKY",
+    "team": "Alpha Tauri",
+    "gain": 0,
+    "points": 0
+  }, {
+    "name": "Jackson",
+    "team": "RedBull",
+    "gain": 0,
+    "points": 0
+  }, {
+    "name": "RatzKatz92",
+    "team": "RedBull",
+    "gain": 0,
+    "points": 0
+  }
+]
