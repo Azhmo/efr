@@ -23,6 +23,10 @@
   "gain": 0,
   "points": 0
 }, {
+  "name": "Renault",
+  "gain": 0,
+  "points": 20
+}, {
   "name": "McLaren",
   "gain": 0,
   "points": 0
@@ -34,8 +38,4 @@
   "name": "Williams",
   "gain": 0,
   "points": 0
-}, {
-  "name": "Renault",
-  "gain": 0,
-  "points": 20
 }]
