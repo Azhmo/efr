@@ -33,6 +33,11 @@ export class UpdateStandingsComponent implements OnInit {
       this.players = this.sortByPoints(response);
       this.oldPlayers = JSON.parse(JSON.stringify(this.players));
     });
+
+    this.resetResults();
+  }
+
+  resetResults(): void {
     this.results = [
       {
         position: 1,
@@ -95,7 +100,49 @@ export class UpdateStandingsComponent implements OnInit {
         points: 1,
       },
       {
+        position: '21',
+        name: '',
+        team: undefined,
+        points: 0,
+      },
+      {
+        position: '22',
+        name: '',
+        team: undefined,
+        points: 0,
+      },
+      {
+        position: '23',
+        name: '',
+        team: undefined,
+        points: 0,
+      },
+      {
+        position: '24',
+        name: '',
+        team: undefined,
+        points: 0,
+      },
+      {
+        position: '25',
+        name: '',
+        team: undefined,
+        points: 0,
+      },
+      {
+        position: '26',
+        name: '',
+        team: undefined,
+        points: 0,
+      },
+      {
         position: 'Cel mai rapid tur',
+        name: '',
+        team: undefined,
+        points: 1,
+      },
+      {
+        position: 'Bonus cursa fara penalizari',
         name: '',
         team: undefined,
         points: 1,

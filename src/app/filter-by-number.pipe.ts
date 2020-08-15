@@ -9,6 +9,15 @@ export class FilterByNumberPipe implements PipeTransform {
     const filteredPlayers = players.filter((val) => val.team === team);
     return filteredPlayers.length > 0
       ? filteredPlayers
-      : [{ name: '-', gain: 0, points: 0, team }];
+      : [
+          {
+            name: '-',
+            gain: 0,
+            points: 0,
+            team,
+            penaltyPoints: 0,
+            nextRacePenalties: '',
+          },
+        ];
   }
 }

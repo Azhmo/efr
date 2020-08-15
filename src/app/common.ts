@@ -19,6 +19,8 @@ export type F1Team =
 export interface PlayerRank extends Player {
   gain: number;
   points: number;
+  penaltyPoints: number;
+  nextRacePenalties: string;
 }
 
 export interface F1TeamRank {

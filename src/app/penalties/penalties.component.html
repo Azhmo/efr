@@ -1,0 +1,18 @@
+<div class="wrapper">
+  <table>
+    <tr>
+      <th width="20%">Nume</th>
+      <th width="20%">Echipa</th>
+      <th width="10%">Puncte penalizare</th>
+      <th width="50%">Penalizare pentru cursa urmatoare</th>
+    </tr>
+    <tr *ngFor="let player of players; index as i">
+      <td>{{ player.name }}</td>
+      <td>
+        <img class="car" src="assets/{{ player.team }}.png" />
+      </td>
+      <td>{{ player.penaltyPoints }}</td>
+      <td>{{ player.nextRacePenalty }}</td>
+    </tr>
+  </table>
+</div>

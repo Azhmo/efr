@@ -6,6 +6,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { UpdateStandingsComponent } from './update-standings/update-standings.component';
 import { HomeComponent } from './home/home.component';
 import { RandomTeamComponent } from './random-team/random-team.component';
+import { PenaltiesComponent } from './penalties/penalties.component';
 
 const routes: Routes = [
   { path: 'standings', component: StandingsComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'calendar', component: CalendarComponent },
   { path: 'update', component: UpdateStandingsComponent },
   { path: 'random', component: RandomTeamComponent },
+  { path: 'penalties', component: PenaltiesComponent },
   { path: '', component: HomeComponent },
 ];
 

@@ -15,6 +15,7 @@ import { FilterPipe } from './filter.pipe';
 import { RandomOrderPipe } from './random-order.pipe';
 import { RandomTeamComponent } from './random-team/random-team.component';
 import { FilterByNumberPipe } from './filter-by-number.pipe';
+import { PenaltiesComponent } from './penalties/penalties.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { FilterByNumberPipe } from './filter-by-number.pipe';
     RandomOrderPipe,
     RandomTeamComponent,
     FilterByNumberPipe,
+    PenaltiesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [HttpService],
