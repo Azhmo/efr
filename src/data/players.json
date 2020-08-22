@@ -3,31 +3,47 @@
     "name": "AgonizedHoney3",
     "team": "Mercedes",
     "gain": 0,
-    "points": 104,
-    "penaltyPoints": 0,
-    "nextRacePenalty": ""
+    "points": 139,
+    "penaltyPoints": 3,
+    "nextRacePenalty": "Warning for dangerous driving"
   },
   {
     "name": "WiseUdr85",
     "team": "Ferrari",
-    "gain": 2,
-    "points": 60,
+    "gain": 0,
+    "points": 111,
     "penaltyPoints": 0,
     "nextRacePenalty": ""
   },
   {
     "name": "Mihnea",
     "team": "Ferrari",
-    "gain": 2,
-    "points": 50,
-    "penaltyPoints": 0,
+    "gain": 0,
+    "points": 83,
+    "penaltyPoints": 1,
     "nextRacePenalty": ""
   },
   {
     "name": "XRL Tudy",
     "team": "Mercedes",
-    "gain": -2,
-    "points": 28,
+    "gain": 0,
+    "points": 40,
+    "penaltyPoints": 0,
+    "nextRacePenalty": ""
+  },
+  {
+    "name": "Croc82",
+    "team": "Racing Point",
+    "gain": 3,
+    "points": 38,
+    "penaltyPoints": 2,
+    "nextRacePenalty": ""
+  },
+  {
+    "name": "aileneiclaudiu",
+    "team": "Alfa Romeo",
+    "gain": 4,
+    "points": 34,
     "penaltyPoints": 0,
     "nextRacePenalty": ""
   },
@@ -42,7 +58,7 @@
   {
     "name": "BogdanTgb",
     "team": "Alpha Tauri",
-    "gain": 2,
+    "gain": -2,
     "points": 22,
     "penaltyPoints": 0,
     "nextRacePenalty": "Qualy Ban"
@@ -50,39 +66,23 @@
   {
     "name": "CipTheKiller",
     "team": "Renault",
-    "gain": 7,
+    "gain": -2,
     "points": 20,
-    "penaltyPoints": 0,
-    "nextRacePenalty": ""
-  },
-  {
-    "name": "Croc82",
-    "team": "Racing Point",
-    "gain": 1,
-    "points": 18,
     "penaltyPoints": 0,
     "nextRacePenalty": ""
   },
   {
     "name": "DeeperMonster2",
     "team": "Williams",
-    "gain": 6,
+    "gain": -1,
     "points": 15,
-    "penaltyPoints": 0,
-    "nextRacePenalty": ""
-  },
-  {
-    "name": "aileneiclaudiu",
-    "team": "Alfa Romeo",
-    "gain": 0,
-    "points": 14,
     "penaltyPoints": 0,
     "nextRacePenalty": ""
   },
   {
     "name": "CarelessJackson",
     "team": "RedBull",
-    "gain": 1,
+    "gain": 0,
     "points": 14,
     "penaltyPoints": 0,
     "nextRacePenalty": ""
@@ -90,7 +90,7 @@
   {
     "name": "Zbuggy79",
     "team": "Racing Point",
-    "gain": -6,
+    "gain": 0,
     "points": 12,
     "penaltyPoints": 0,
     "nextRacePenalty": ""
@@ -98,7 +98,7 @@
   {
     "name": "AndroidSpace550",
     "team": "Renault",
-    "gain": -6,
+    "gain": 0,
     "points": 11,
     "penaltyPoints": 0,
     "nextRacePenalty": ""
@@ -106,7 +106,7 @@
   {
     "name": "Ghost LANKY",
     "team": "Alpha Tauri",
-    "gain": -3,
+    "gain": 0,
     "points": 0,
     "penaltyPoints": 0,
     "nextRacePenalty": ""
@@ -114,7 +114,7 @@
   {
     "name": "RatzKatz92",
     "team": "RedBull",
-    "gain": -2,
+    "gain": 0,
     "points": 0,
     "penaltyPoints": 0,
     "nextRacePenalty": ""
