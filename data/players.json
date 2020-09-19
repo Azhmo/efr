@@ -1,1 +1,99 @@
-[{"name":"WiseUdr85","team":"Ferrari","gain":0,"points":249,"penaltyPoints":0,"nextRacePenalty":""},{"name":"AgonizedHoney3","team":"Mercedes","gain":0,"points":189,"penaltyPoints":4,"nextRacePenalty":""},{"name":"Mihnea","team":"Ferrari","gain":0,"points":131,"penaltyPoints":2,"nextRacePenalty":"Qualy Ban"},{"name":"Sasha02","team":"Williams","gain":1,"points":101,"penaltyPoints":0,"nextRacePenalty":"Warning for careless driving"},{"name":"XRL Azhmo","team":"Alfa Romeo","gain":-1,"points":98,"penaltyPoints":0,"nextRacePenalty":"Warning for dangerous driving"},{"name":"XRL Tudy","team":"Mercedes","gain":2,"points":79,"penaltyPoints":0,"nextRacePenalty":"Warning for careless driving"},{"name":"Croc82","team":"Racing Point","gain":-1,"points":77,"penaltyPoints":2,"nextRacePenalty":""},{"name":"DeeperMonster2","team":"Williams","gain":-1,"points":59,"penaltyPoints":0,"nextRacePenalty":""},{"name":"CarelessJackson","team":"RedBull","gain":2,"points":44,"penaltyPoints":0,"nextRacePenalty":""},{"name":"aileneiclaudiu","team":"Alfa Romeo","gain":-1,"points":38,"penaltyPoints":0,"nextRacePenalty":""},{"name":"Zbuggy79","team":"Racing Point","gain":2,"points":38,"penaltyPoints":0,"nextRacePenalty":""},{"name":"BogdanTgb","team":"Alpha Tauri","gain":-2,"points":33,"penaltyPoints":0,"nextRacePenalty":""},{"name":"CipTheKiller","team":"Renault","gain":-1,"points":24,"penaltyPoints":1,"nextRacePenalty":""},{"name":"AndroidSpace550","team":"Renault","gain":0,"points":11,"penaltyPoints":0,"nextRacePenalty":""},{"name":"Ghost LANKY","team":"Alpha Tauri","gain":0,"points":0,"penaltyPoints":0,"nextRacePenalty":""},{"name":"RatzKatz92","team":"RedBull","gain":0,"points":0,"penaltyPoints":0,"nextRacePenalty":""},{"name":"Filip M9525","team":"McLaren","gain":0,"points":0,"penaltyPoints":0,"nextRacePenalty":""}]
+[{
+  "name": "WiseUdr85",
+  "team": "Ferrari",
+  "gain": 0,
+  "points": 293,
+  "penaltyPoints": 0,
+  "nextRacePenalty": ""
+}, {
+  "name": "AgonizedHoney3",
+  "team": "Mercedes",
+  "gain": 0,
+  "points": 222,
+  "penaltyPoints": 4,
+  "nextRacePenalty": ""
+}, {
+  "name": "Mihnea",
+  "team": "Ferrari",
+  "gain": 0,
+  "points": 154,
+  "penaltyPoints": 2,
+  "nextRacePenalty": "Warning for retire on track"
+}, {
+  "name": "XRL Azhmo",
+  "team": "Alfa Romeo",
+  "gain": 1,
+  "points": 124,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "Warning for dangerous driving"
+}, {
+  "name": "Sasha02",
+  "team": "Williams",
+  "gain": -1,
+  "points": 119,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "Warning for careless driving"
+}, {
+  "name": "XRL Tudy",
+  "team": "Mercedes",
+  "gain": 0,
+  "points": 107,
+  "penaltyPoints": 2,
+  "nextRacePenalty": "Warning for careless driving"
+}, {
+  "name": "Croc82",
+  "team": "Racing Point",
+  "gain": 0,
+  "points": 77,
+  "penaltyPoints": 2,
+  "nextRacePenalty": ""
+}, {
+  "name": "CarelessJackson",
+  "team": "RedBull",
+  "gain": 1,
+  "points": 64,
+  "penaltyPoints": 0,
+  "nextRacePenalty": ""
+}, {
+  "name": "DeeperMonster2",
+  "team": "Williams",
+  "gain": -1,
+  "points": 59,
+  "penaltyPoints": 0,
+  "nextRacePenalty": ""
+}, {
+  "name": "aileneiclaudiu",
+  "team": "Alfa Romeo",
+  "gain": 0,
+  "points": 38,
+  "penaltyPoints": 0,
+  "nextRacePenalty": ""
+}, {
+  "name": "Zbuggy79",
+  "team": "Racing Point",
+  "gain": 0,
+  "points": 38,
+  "penaltyPoints": 0,
+  "nextRacePenalty": ""
+}, {
+  "name": "BogdanTgb",
+  "team": "Alpha Tauri",
+  "gain": 0,
+  "points": 33,
+  "penaltyPoints": 0,
+  "nextRacePenalty": ""
+}, {
+  "name": "CipTheKiller",
+  "team": "Renault",
+  "gain": 0,
+  "points": 32,
+  "penaltyPoints": 1,
+  "nextRacePenalty": ""
+}, {
+  "name": "AndroidSpace550",
+  "team": "Renault",
+  "gain": 0,
+  "points": 11,
+  "penaltyPoints": 0,
+  "nextRacePenalty": ""
+}]
