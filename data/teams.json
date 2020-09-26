@@ -1,1 +1,41 @@
-[{"name":"Ferrari","gain":0,"points":446},{"name":"Mercedes","gain":0,"points":330},{"name":"Williams","gain":0,"points":178},{"name":"Alfa Romeo","gain":0,"points":162},{"name":"Racing Point","gain":0,"points":107},{"name":"RedBull","gain":1,"points":64},{"name":"Renault","gain":-1,"points":52},{"name":"Alpha Tauri","gain":0,"points":33},{"name":"McLaren","gain":0,"points":0},{"name":"Haas","gain":0,"points":0}]
+[{
+  "name": "Ferrari",
+  "gain": 0,
+  "points": 495
+}, {
+  "name": "Mercedes",
+  "gain": 0,
+  "points": 384
+}, {
+  "name": "Williams",
+  "gain": 0,
+  "points": 239
+}, {
+  "name": "Alfa Romeo",
+  "gain": 0,
+  "points": 164
+}, {
+  "name": "Racing Point",
+  "gain": 0,
+  "points": 125
+}, {
+  "name": "RedBull",
+  "gain": 0,
+  "points": 84
+}, {
+  "name": "Renault",
+  "gain": 0,
+  "points": 52
+}, {
+  "name": "Alpha Tauri",
+  "gain": 0,
+  "points": 35
+}, {
+  "name": "McLaren",
+  "gain": 0,
+  "points": 0
+}, {
+  "name": "Haas",
+  "gain": 0,
+  "points": 0
+}]
