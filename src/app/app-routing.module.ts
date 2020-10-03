@@ -7,6 +7,7 @@ import { UpdateStandingsComponent } from './update-standings/update-standings.co
 import { HomeComponent } from './home/home.component';
 import { RandomTeamComponent } from './random-team/random-team.component';
 import { PenaltiesComponent } from './penalties/penalties.component';
+import { LogoComponent } from './logo/logo.component';
 
 const routes: Routes = [
   { path: 'standings', component: StandingsComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'update', component: UpdateStandingsComponent },
   { path: 'random', component: RandomTeamComponent },
   { path: 'penalties', component: PenaltiesComponent },
+  { path: 'logo', component: LogoComponent },
   { path: '', component: HomeComponent },
 ];
 
@@ -22,4 +24,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
