@@ -2,76 +2,76 @@
   "name": "WiseUdr85",
   "team": "Ferrari",
   "gain": 0,
-  "points": 318,
-  "penaltyPoints": 0,
+  "points": 341,
+  "penaltyPoints": 2,
   "nextRacePenalty": ""
 }, {
   "name": "AgonizedHoney3",
   "team": "Mercedes",
   "gain": 0,
-  "points": 260,
-  "penaltyPoints": 4,
+  "points": 303,
+  "penaltyPoints": 5,
   "nextRacePenalty": ""
-}, {
-  "name": "Mihnea",
-  "team": "Ferrari",
-  "gain": 0,
-  "points": 178,
-  "penaltyPoints": 2,
-  "nextRacePenalty": "Warning"
 }, {
   "name": "Sasha02",
   "team": "Williams",
   "gain": 1,
-  "points": 153,
-  "penaltyPoints": 0,
+  "points": 196,
+  "penaltyPoints": 2,
+  "nextRacePenalty": "Warning"
+}, {
+  "name": "Mihnea",
+  "team": "Ferrari",
+  "gain": -1,
+  "points": 178,
+  "penaltyPoints": 2,
   "nextRacePenalty": "Warning"
 }, {
   "name": "XRL Azhmo",
   "team": "Alfa Romeo",
-  "gain": -1,
-  "points": 126,
-  "penaltyPoints": 2,
+  "gain": 0,
+  "points": 144,
+  "penaltyPoints": 4,
   "nextRacePenalty": "Warning"
 }, {
   "name": "XRL Tudy",
   "team": "Mercedes",
   "gain": 0,
-  "points": 123,
+  "points": 129,
   "penaltyPoints": 2,
   "nextRacePenalty": "Warning"
-}, {
-  "name": "Croc82",
-  "team": "Racing Point",
-  "gain": 0,
-  "points": 89,
-  "penaltyPoints": 2,
-  "nextRacePenalty": ""
 }, {
   "name": "DeeperMonster2",
   "team": "Williams",
   "gain": 1,
-  "points": 86,
-  "penaltyPoints": 1,
+  "points": 114,
+  "penaltyPoints": 4,
   "nextRacePenalty": ""
 }, {
   "name": "CarelessJackson",
   "team": "RedBull",
-  "gain": -1,
-  "points": 84,
+  "gain": 1,
+  "points": 108,
   "penaltyPoints": 0,
   "nextRacePenalty": "Warning"
 }, {
+  "name": "Croc82",
+  "team": "Racing Point",
+  "gain": -2,
+  "points": 100,
+  "penaltyPoints": 2,
+  "nextRacePenalty": ""
+}, {
   "name": "Zbuggy79",
   "team": "Racing Point",
-  "gain": 1,
+  "gain": 0,
   "points": 44,
   "penaltyPoints": 0,
   "nextRacePenalty": "Warning"
 }, {
   "name": "aileneiclaudiu",
   "team": "Alfa Romeo",
-  "gain": -1,
+  "gain": 0,
   "points": 38,
   "penaltyPoints": 0,
   "nextRacePenalty": ""

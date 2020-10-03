@@ -1,27 +1,27 @@
 [{
   "name": "Ferrari",
   "gain": 0,
-  "points": 495
+  "points": 518
 }, {
   "name": "Mercedes",
   "gain": 0,
-  "points": 384
+  "points": 433
 }, {
   "name": "Williams",
   "gain": 0,
-  "points": 239
+  "points": 310
 }, {
   "name": "Alfa Romeo",
   "gain": 0,
-  "points": 164
+  "points": 182
 }, {
   "name": "Racing Point",
   "gain": 0,
-  "points": 125
+  "points": 136
 }, {
   "name": "RedBull",
   "gain": 0,
-  "points": 84
+  "points": 108
 }, {
   "name": "Renault",
   "gain": 0,
