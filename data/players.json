@@ -2,62 +2,55 @@
   "name": "WiseUdr85",
   "team": "Ferrari",
   "gain": 0,
-  "points": 341,
+  "points": 373,
   "penaltyPoints": 2,
-  "nextRacePenalty": ""
-}, {
-  "name": "AgonizedHoney3",
-  "team": "Mercedes",
-  "gain": 0,
-  "points": 303,
-  "penaltyPoints": 5,
   "nextRacePenalty": ""
 }, {
   "name": "Sasha02",
   "team": "Williams",
-  "gain": 1,
-  "points": 196,
+  "gain": 0,
+  "points": 229,
   "penaltyPoints": 2,
   "nextRacePenalty": "Warning"
 }, {
   "name": "Mihnea",
   "team": "Ferrari",
-  "gain": -1,
-  "points": 178,
+  "gain": 0,
+  "points": 206,
   "penaltyPoints": 2,
   "nextRacePenalty": "Warning"
 }, {
   "name": "XRL Azhmo",
   "team": "Alfa Romeo",
   "gain": 0,
-  "points": 144,
+  "points": 164,
   "penaltyPoints": 4,
-  "nextRacePenalty": "Warning"
-}, {
-  "name": "XRL Tudy",
-  "team": "Mercedes",
-  "gain": 0,
-  "points": 129,
-  "penaltyPoints": 2,
   "nextRacePenalty": "Warning"
 }, {
   "name": "DeeperMonster2",
   "team": "Williams",
   "gain": 1,
-  "points": 114,
+  "points": 141,
   "penaltyPoints": 4,
   "nextRacePenalty": ""
 }, {
+  "name": "XRL Tudy",
+  "team": "Mercedes",
+  "gain": -1,
+  "points": 135,
+  "penaltyPoints": 2,
+  "nextRacePenalty": "Warning"
+}, {
   "name": "CarelessJackson",
   "team": "RedBull",
-  "gain": 1,
-  "points": 108,
+  "gain": 0,
+  "points": 128,
   "penaltyPoints": 0,
   "nextRacePenalty": "Warning"
 }, {
   "name": "Croc82",
   "team": "Racing Point",
-  "gain": -2,
+  "gain": 0,
   "points": 100,
   "penaltyPoints": 2,
   "nextRacePenalty": ""
