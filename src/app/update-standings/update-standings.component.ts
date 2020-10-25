@@ -22,7 +22,7 @@ export class UpdateStandingsComponent implements OnInit {
   teams: F1TeamRank[];
   oldTeams: F1TeamRank[];
 
-  constructor(private httpService: HttpService) {}
+  constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
     this.httpService.getTeamsRank().subscribe((response) => {
@@ -136,13 +136,13 @@ export class UpdateStandingsComponent implements OnInit {
         points: 0,
       },
       {
-        position: 'Cel mai rapid tur',
+        position: 'Fastest lap',
         name: '',
         team: undefined,
         points: 1,
       },
       {
-        position: 'Bonus cursa fara penalizari',
+        position: 'Bonus no penalties',
         name: '',
         team: undefined,
         points: 1,

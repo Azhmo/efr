@@ -2,8 +2,8 @@
 @import './colors.scss';
 
 body {
-  background-color:$background;
-  color: $primary;
+  background-color: $background;
+  color: $text-primary;
   font-family: F1;
   margin: 0;
 }
@@ -85,6 +85,7 @@ tr:nth-child(4) {
 
 tr:nth-child(2) {
   color: #ffc000;
+
   .medal::before {
     content: "🥇";
   }
@@ -96,6 +97,7 @@ tr:nth-child(2) {
 
 tr:nth-child(3) {
   color: #adadad;
+
   .medal::before {
     content: "🥈";
   }
@@ -103,6 +105,7 @@ tr:nth-child(3) {
 
 tr:nth-child(4) {
   color: #b8580e;
+
   .medal::before {
     content: "🥉";
   }
@@ -153,30 +156,39 @@ tr:nth-child(4) {
 .mercedes {
   color: #00D2BE;
 }
+
 .ferrari {
   color: #C00000;
 }
+
 .redbull {
   color: #0600EF;
 }
+
 .haas {
   color: #787878;
 }
+
 .racingpoint {
   color: #F596C8;
 }
+
 .alphatauri {
   color: #242E3A;
 }
+
 .mclaren {
   color: #FF8700;
 }
+
 .alfaromeo {
   color: #960000;
 }
+
 .renault {
   color: #F2D62E;
 }
+
 .williams {
   color: #0082FA;
 }

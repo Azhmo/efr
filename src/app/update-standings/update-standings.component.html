@@ -1,15 +1,11 @@
 <div class="wrapper">
   <table>
     <tr>
-      <th width="10%">Pozitie</th>
-      <th>Nume</th>
-      <th>Echipa</th>
+      <th width="10%">Position</th>
+      <th>Gamertag</th>
+      <th>Team</th>
     </tr>
-    <tr
-      *ngFor="let player of players; index as i"
-      draggable="true"
-      (dragstart)="drag($event)"
-    >
+    <tr *ngFor="let player of players; index as i" draggable="true" (dragstart)="drag($event)">
       <td>
         <span class="medal"></span><span class="position">{{ i + 1 }}</span>
       </td>
@@ -21,20 +17,15 @@
   </table>
   <table>
     <tr>
-      <th width="30%">Pozitie</th>
-      <th>Nume</th>
-      <th>Echipa</th>
-      <th width="10%">Puncte</th>
+      <th width="30%">Position</th>
+      <th>Gamertag</th>
+      <th>Team</th>
+      <th width="10%">Points</th>
     </tr>
-    <tr
-      *ngFor="let result of results; index as i"
-      draggable="true"
-      (dragover)="allowDrop($event)"
-      (drop)="drop($event)"
-    >
+    <tr *ngFor="let result of results; index as i" draggable="true" (dragover)="allowDrop($event)"
+      (drop)="drop($event)">
       <td>
-        <span class="medal"></span
-        ><span class="position">{{ result.position }}</span>
+        <span class="medal"></span><span class="position">{{ result.position }}</span>
       </td>
       <td>{{ result.name }}</td>
       <td>

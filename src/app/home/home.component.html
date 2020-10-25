@@ -1,8 +1,8 @@
 <div class="wrapper" *ngIf="players && teams">
   <table>
     <tr>
-      <th width="50%">Echipa</th>
-      <th width="50%">Membri</th>
+      <th width="50%">Team</th>
+      <th width="50%">Members</th>
     </tr>
     <tr *ngFor="let team of teams">
       <td class="{{ team.name.toString().split(' ').join('') | lowercase }}">
