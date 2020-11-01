@@ -1,6 +1,6 @@
 [{
   "name": "SashaAndrei02",
-  "team": "-",
+  "team": "Mercedes",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -8,7 +8,7 @@
   "country": "RO"
 }, {
   "name": "XRL Azhmo",
-  "team": "-",
+  "team": "McLaren",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -16,7 +16,7 @@
   "country": "RO"
 }, {
   "name": "XRL Tudy",
-  "team": "-",
+  "team": "Haas",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -24,7 +24,7 @@
   "country": "RO"
 }, {
   "name": "CarelessJackson",
-  "team": "-",
+  "team": "McLaren",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -32,7 +32,7 @@
   "country": "RO"
 }, {
   "name": "Zbuggy79",
-  "team": "-",
+  "team": "Racing Point",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -40,7 +40,7 @@
   "country": "RO"
 }, {
   "name": "Pathal0gical",
-  "team": "-",
+  "team": "Haas",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -48,7 +48,7 @@
   "country": "IE"
 }, {
   "name": "XRL Olli",
-  "team": "-",
+  "team": "Ferrari",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -56,7 +56,7 @@
   "country": "BE"
 }, {
   "name": "Elfinstarfish19",
-  "team": "-",
+  "team": "Racing Point",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -64,23 +64,23 @@
   "country": "IE"
 }, {
   "name": "BG BulBeast",
-  "team": "-",
+  "team": "Alfa Romeo",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "country": "BG"
 }, {
-  "name": "Bogdantgb Xbox",
-  "team": "-",
+  "name": "NJDevils39",
+  "team": "RedBull",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
-  "country": "RO"
+  "country": "CA"
 }, {
   "name": "dudemanbestbro1",
-  "team": "-",
+  "team": "RedBull",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -88,7 +88,7 @@
   "country": "MT"
 }, {
   "name": "kevn0128",
-  "team": "-",
+  "team": "Williams",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -96,7 +96,7 @@
   "country": "HU"
 }, {
   "name": "micowow",
-  "team": "-",
+  "team": "Alpha Tauri",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -104,7 +104,7 @@
   "country": "DE"
 }, {
   "name": "Mihnea11",
-  "team": "-",
+  "team": "Alfa Romeo",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -112,7 +112,7 @@
   "country": "RO"
 }, {
   "name": "Novadi Khalid",
-  "team": "-",
+  "team": "Alpha Tauri",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -120,7 +120,7 @@
   "country": "DE"
 }, {
   "name": "Desperado Jr",
-  "team": "-",
+  "team": "Williams",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -128,7 +128,7 @@
   "country": "HU"
 }, {
   "name": "WAAX",
-  "team": "-",
+  "team": "Ferrari",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -136,7 +136,7 @@
   "country": "FR"
 }, {
   "name": "WiseUdr85",
-  "team": "-",
+  "team": "Mercedes",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -144,7 +144,7 @@
   "country": "RO"
 }, {
   "name": "toto377",
-  "team": "-",
+  "team": "Renault",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -152,10 +152,106 @@
   "country": "FR"
 }, {
   "name": "xavlmb42",
-  "team": "-",
+  "team": "Renault",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "country": "FR"
+}, {
+  "name": "Croc82",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "RO"
+}, {
+  "name": "DeeperMonster2",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "RO"
+}, {
+  "name": "CipTheKiller",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "RO"
+}, {
+  "name": "Attwe",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "FI"
+}, {
+  "name": "BogdanTgb Xbox",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "RO"
+}, {
+  "name": "ElementalityS",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "TR"
+}, {
+  "name": "Find Waldoe",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "FI"
+}, {
+  "name": "FZR Kesso",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "BR"
+}, {
+  "name": "Numnuts2271",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "AU"
+}, {
+  "name": "Temmorin",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "CZ"
+}, {
+  "name": "Troy SZN",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "DE"
+}, {
+  "name": "xX3locXx",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "CA"
 }]
