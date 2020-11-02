@@ -1,6 +1,6 @@
 [{
   "name": "SashaAndrei02",
-  "team": "Mercedes",
+  "team": "Williams",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -88,7 +88,7 @@
   "country": "MT"
 }, {
   "name": "kevn0128",
-  "team": "Williams",
+  "team": "Mercedes",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -120,7 +120,7 @@
   "country": "DE"
 }, {
   "name": "Desperado Jr",
-  "team": "Williams",
+  "team": "Mercedes",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -136,7 +136,7 @@
   "country": "FR"
 }, {
   "name": "WiseUdr85",
-  "team": "Mercedes",
+  "team": "Williams",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -223,14 +223,6 @@
   "nextRacePenalty": "",
   "country": "BR"
 }, {
-  "name": "Numnuts2271",
-  "team": "Res",
-  "gain": 0,
-  "points": 0,
-  "penaltyPoints": 0,
-  "nextRacePenalty": "",
-  "country": "AU"
-}, {
   "name": "Temmorin",
   "team": "Res",
   "gain": 0,
@@ -239,13 +231,21 @@
   "nextRacePenalty": "",
   "country": "CZ"
 }, {
-  "name": "Troy SZN",
+  "name": "Houhoukou",
   "team": "Res",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
-  "country": "DE"
+  "country": "NL"
+}, {
+  "name": "XxvrikandelxX",
+  "team": "Res",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "NL"
 }, {
   "name": "xX3locXx",
   "team": "Res",
