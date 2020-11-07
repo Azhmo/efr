@@ -39,14 +39,6 @@
   "nextRacePenalty": "",
   "country": "RO"
 }, {
-  "name": "Pathal0gical",
-  "team": "Haas",
-  "gain": 0,
-  "points": 0,
-  "penaltyPoints": 0,
-  "nextRacePenalty": "",
-  "country": "IE"
-}, {
   "name": "XRL Olli",
   "team": "Ferrari",
   "gain": 0,
@@ -80,7 +72,7 @@
   "country": "CA"
 }, {
   "name": "dudemanbestbro1",
-  "team": "RedBull",
+  "team": "Haas",
   "gain": 0,
   "points": 0,
   "penaltyPoints": 0,
@@ -127,6 +119,14 @@
   "nextRacePenalty": "",
   "country": "HU"
 }, {
+  "name": "xX3locXx",
+  "team": "RedBull",
+  "gain": 0,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "CA"
+}, {
   "name": "WAAX",
   "team": "Ferrari",
   "gain": 0,
@@ -158,14 +158,6 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "country": "FR"
-}, {
-  "name": "Croc82",
-  "team": "Res",
-  "gain": 0,
-  "points": 0,
-  "penaltyPoints": 0,
-  "nextRacePenalty": "",
-  "country": "RO"
 }, {
   "name": "DeeperMonster2",
   "team": "Res",
@@ -199,14 +191,6 @@
   "nextRacePenalty": "",
   "country": "RO"
 }, {
-  "name": "ElementalityS",
-  "team": "Res",
-  "gain": 0,
-  "points": 0,
-  "penaltyPoints": 0,
-  "nextRacePenalty": "",
-  "country": "TR"
-}, {
   "name": "Find Waldoe",
   "team": "Res",
   "gain": 0,
@@ -231,14 +215,6 @@
   "nextRacePenalty": "",
   "country": "CZ"
 }, {
-  "name": "Houhoukou",
-  "team": "Res",
-  "gain": 0,
-  "points": 0,
-  "penaltyPoints": 0,
-  "nextRacePenalty": "",
-  "country": "NL"
-}, {
   "name": "XxvrikandelxX",
   "team": "Res",
   "gain": 0,
@@ -246,12 +222,4 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "country": "NL"
-}, {
-  "name": "xX3locXx",
-  "team": "Res",
-  "gain": 0,
-  "points": 0,
-  "penaltyPoints": 0,
-  "nextRacePenalty": "",
-  "country": "CA"
 }]
