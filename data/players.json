@@ -32,7 +32,7 @@
   "name": "DeeperMonster2",
   "team": "Renault",
   "gain": 0,
-  "points": 56,
+  "points": 53,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "country": "RO",
@@ -70,7 +70,7 @@
   "hasBonusPoint": false
 }, {
   "name": "Steffelicious",
-  "team": "Res",
+  "team": "RedBull",
   "gain": 0,
   "points": 19,
   "penaltyPoints": 1,
@@ -112,7 +112,7 @@
   "name": "GGT Verstappen",
   "team": "Alpha Tauri",
   "gain": 14,
-  "points": 12,
+  "points": 15,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "country": "NL",

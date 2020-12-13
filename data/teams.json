@@ -9,7 +9,7 @@
 }, {
   "name": "Renault",
   "gain": 1,
-  "points": 90
+  "points": 87
 }, {
   "name": "Mercedes",
   "gain": -1,
@@ -17,7 +17,7 @@
 }, {
   "name": "Racing Point",
   "gain": 2,
-  "points": 32
+  "points": 35
 }, {
   "name": "Alfa Romeo",
   "gain": -1,
