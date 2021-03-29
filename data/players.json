@@ -32,7 +32,7 @@
   "name": "XRL WAAX",
   "team": "Ferrari",
   "gain": 0,
-  "points": 159,
+  "points": 171,
   "penaltyPoints": 1,
   "nextRacePenalty": "Warning x1",
   "country": "FR",
@@ -49,20 +49,10 @@
   "hasFastestLap": false,
   "hasBonusPoint": false
 }, {
-  "name": "CarelessJackson",
-  "team": "McLaren",
-  "gain": 0,
-  "points": 107,
-  "penaltyPoints": 0,
-  "nextRacePenalty": "",
-  "country": "RO",
-  "hasFastestLap": false,
-  "hasBonusPoint": false
-}, {
   "name": "AWRL Kevin",
   "team": "Mercedes",
-  "gain": 0,
-  "points": 96,
+  "gain": 1,
+  "points": 114,
   "penaltyPoints": 2,
   "nextRacePenalty": "",
   "country": "NL",
@@ -72,8 +62,18 @@
   "name": "XRL Tudy",
   "team": "Alfa Romeo",
   "gain": 1,
-  "points": 96,
+  "points": 111,
   "penaltyPoints": 1,
+  "nextRacePenalty": "",
+  "country": "RO",
+  "hasFastestLap": false,
+  "hasBonusPoint": false
+}, {
+  "name": "CarelessJackson",
+  "team": "McLaren",
+  "gain": -2,
+  "points": 107,
+  "penaltyPoints": 0,
   "nextRacePenalty": "",
   "country": "RO",
   "hasFastestLap": false,
@@ -81,8 +81,8 @@
 }, {
   "name": "Desperado Jr",
   "team": "Ferrari",
-  "gain": -1,
-  "points": 91,
+  "gain": 0,
+  "points": 101,
   "penaltyPoints": 1,
   "nextRacePenalty": "Warning x1",
   "country": "HU",
@@ -92,7 +92,7 @@
   "name": "BG BulBeast",
   "team": "Alfa Romeo",
   "gain": 0,
-  "points": 75,
+  "points": 83,
   "penaltyPoints": 6,
   "nextRacePenalty": "Warning x1",
   "country": "BG",
@@ -112,7 +112,7 @@
   "name": "Novadi Khalid",
   "team": "Alpha Tauri",
   "gain": 0,
-  "points": 59,
+  "points": 60,
   "penaltyPoints": 5,
   "nextRacePenalty": "",
   "country": "DE",
@@ -131,11 +131,21 @@
 }, {
   "name": "XRL Waldoe",
   "team": "Res",
-  "gain": 1,
+  "gain": 0,
   "points": 41,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "country": "FI",
+  "hasFastestLap": false,
+  "hasBonusPoint": false
+}, {
+  "name": "AWRL Apollo",
+  "team": "Res",
+  "gain": 1,
+  "points": 33,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "GB",
   "hasFastestLap": false,
   "hasBonusPoint": false
 }, {
@@ -149,9 +159,9 @@
   "hasFastestLap": false,
   "hasBonusPoint": false
 }, {
-  "name": "AWRL Apollo",
+  "name": "A Waddington",
   "team": "Res",
-  "gain": 4,
+  "gain": 9,
   "points": 26,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
@@ -181,7 +191,7 @@
 }, {
   "name": "Attwe",
   "team": "Res",
-  "gain": 0,
+  "gain": -1,
   "points": 10,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
@@ -191,17 +201,27 @@
 }, {
   "name": "Zbuggy79",
   "team": "Racing Point",
-  "gain": -2,
-  "points": 4,
+  "gain": -1,
+  "points": 8,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "country": "RO",
   "hasFastestLap": false,
   "hasBonusPoint": false
 }, {
+  "name": "Azhmo",
+  "team": "Res",
+  "gain": 7,
+  "points": 2,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "Ro",
+  "hasFastestLap": false,
+  "hasBonusPoint": false
+}, {
   "name": "Croc82",
   "team": "Racing Point",
-  "gain": 0,
+  "gain": -2,
   "points": 0,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
@@ -211,7 +231,7 @@
 }, {
   "name": "vladnire",
   "team": "Res",
-  "gain": 0,
+  "gain": -2,
   "points": 0,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
@@ -221,7 +241,7 @@
 }, {
   "name": "C11 Zyk3l",
   "team": "Res",
-  "gain": 0,
+  "gain": -2,
   "points": 0,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
@@ -231,7 +251,7 @@
 }, {
   "name": "vPozr",
   "team": "Res",
-  "gain": 0,
+  "gain": -2,
   "points": 0,
   "penaltyPoints": 2,
   "nextRacePenalty": "",
@@ -241,11 +261,31 @@
 }, {
   "name": "reallonelyxd",
   "team": "Res",
-  "gain": 0,
+  "gain": -2,
   "points": 0,
   "penaltyPoints": 2,
   "nextRacePenalty": "",
   "country": "RS",
+  "hasFastestLap": false,
+  "hasBonusPoint": false
+}, {
+  "name": "LewisSRFC22",
+  "team": "Res",
+  "gain": -1,
+  "points": 0,
+  "penaltyPoints": 2,
+  "nextRacePenalty": "Race ban",
+  "country": "IT",
+  "hasFastestLap": false,
+  "hasBonusPoint": false
+}, {
+  "name": "ERL Norris",
+  "team": "Res",
+  "gain": -1,
+  "points": 0,
+  "penaltyPoints": 0,
+  "nextRacePenalty": "",
+  "country": "GB",
   "hasFastestLap": false,
   "hasBonusPoint": false
 }]
