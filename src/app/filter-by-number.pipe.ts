@@ -10,14 +10,15 @@ export class FilterByNumberPipe implements PipeTransform {
     return filteredPlayers.length > 0
       ? filteredPlayers
       : [
-          {
-            name: '-',
-            gain: 0,
-            points: 0,
-            team,
-            penaltyPoints: 0,
-            nextRacePenalties: '',
-          },
-        ];
+        {
+          name: '-',
+          gain: 0,
+          points: 0,
+          team,
+          penaltyPoints: 0,
+          nextRacePenalties: '',
+          country: '',
+        },
+      ];
   }
 }

@@ -1,0 +1,19 @@
+<div class='wrapper'>
+  <table>
+    <tr>
+      <th style="width: 10%">Incident</th>
+      <th style="width: 20%">Drivers</th>
+      <th style="width: 30%">Report</th>
+      <th style="width: 20%">Penalty</th>
+      <th style="width: 20%">Lap</th>
+    </tr>
+    <tr *ngFor="let incident of incidents; index as i">
+      <td>{{incident}}</td>
+      <td contenteditable="true">Driver</td>
+      <td contenteditable="true">Report</td>
+      <td contenteditable="true">Penalty</td>
+      <td contenteditable="true">Lap</td>
+    </tr>
+  </table>
+  <Button (click)="addIncident()">Add incident</Button>
+</div>

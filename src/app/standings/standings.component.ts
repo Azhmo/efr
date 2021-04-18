@@ -10,7 +10,7 @@ import { PlayerRank } from '../common';
 })
 export class StandingsComponent implements OnInit {
   players: PlayerRank[];
-  constructor(private httpService: HttpService) {}
+  constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
     this.httpService.getPlayersRank().subscribe((response) => {
@@ -20,6 +20,10 @@ export class StandingsComponent implements OnInit {
 
   public showGain(gain: number): number {
     return Math.abs(gain);
+  }
+
+  public getCountryFlagFromCode(countryCode: string) {
+    return `https://lipis.github.io/flag-icon-css/flags/4x3/${countryCode.toLowerCase()}.svg`;
   }
 
   public sortByPoints(players: PlayerRank[]): PlayerRank[] {

@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -17,6 +18,8 @@ import { RandomTeamComponent } from './random-team/random-team.component';
 import { FilterByNumberPipe } from './filter-by-number.pipe';
 import { PenaltiesComponent } from './penalties/penalties.component';
 import { LogoComponent } from './logo/logo.component';
+import { IncidentReportComponent } from './incident-report/incident-report.component';
+import { CalendarNextSeasonComponent } from './calendar-next-season/calendar-next-season.component';
 
 @NgModule({
   declarations: [
@@ -33,9 +36,11 @@ import { LogoComponent } from './logo/logo.component';
     FilterByNumberPipe,
     PenaltiesComponent,
     LogoComponent,
+    IncidentReportComponent,
+    CalendarNextSeasonComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [HttpService],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

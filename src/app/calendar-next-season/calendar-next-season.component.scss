@@ -1,0 +1,42 @@
+@import './../../colors.scss';
+
+.section p {
+  font-family: F1;
+}
+
+.section span {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.section .date {
+  font-family: F1 Bold;
+  font-size: 16px;
+  margin-left: 0;
+}
+
+.section p.break {
+  background-color: $primary;
+  color: $secondary;
+  width: 82%;
+  padding: 10px;
+  border-radius: 4px;
+  text-shadow: none;
+}
+
+@media screen and (max-width: 720px) {
+  .wrapper {
+    display: block;
+
+    .half {
+      text-align: center;
+    }
+
+    .section p.break {
+      width: 100%;
+      padding: 10px 0;
+    }
+  }
+}

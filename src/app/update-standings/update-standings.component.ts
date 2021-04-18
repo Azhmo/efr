@@ -100,37 +100,59 @@ export class UpdateStandingsComponent implements OnInit {
         points: 1,
       },
       {
-        position: '21',
+        position: '11',
         name: '',
         team: undefined,
         points: 0,
       },
       {
-        position: '22',
+        position: '12',
         name: '',
         team: undefined,
         points: 0,
       },
       {
-        position: '23',
+        position: '13',
         name: '',
         team: undefined,
         points: 0,
       },
       {
-        position: '24',
+        position: '14',
         name: '',
         team: undefined,
         points: 0,
       },
       {
-        position: '25',
+        position: '15',
         name: '',
         team: undefined,
         points: 0,
       },
       {
-        position: '26',
+        position: '16',
+        name: '',
+        team: undefined,
+        points: 0,
+      },
+      {
+        position: '17',
+        name: '',
+        team: undefined,
+        points: 0,
+      },
+      {
+        position: '18',
+        name: '',
+        team: undefined,
+        points: 0,
+      }, {
+        position: '19',
+        name: '',
+        team: undefined,
+        points: 0,
+      }, {
+        position: '20',
         name: '',
         team: undefined,
         points: 0,
@@ -150,43 +172,6 @@ export class UpdateStandingsComponent implements OnInit {
     ];
   }
 
-  drag(event) {
-    const playerName = event.target.children[1].textContent;
-    const playerJson = this.players.find(
-      (player) => player.name === playerName
-    );
-    event.dataTransfer.setData('text/plain', JSON.stringify(playerJson));
-  }
-
-  drop(event) {
-    const transferPlayer = JSON.parse(
-      event.dataTransfer.getData('text/plain')
-    ) as PlayerRank;
-    const newPosition =
-      event.target.parentElement.children[0].children[1].textContent;
-    const newResult = this.results.find(
-      (result) => result.position == newPosition
-    );
-
-    // update team standings
-    this.teams.find((team) => team.name === transferPlayer.team).points +=
-      newResult.points;
-
-    // update general standings
-    const playerFound = this.players.find(
-      (player) => player.name === transferPlayer.name
-    );
-    playerFound.points += newResult.points;
-
-    // update race standings
-    newResult.name = transferPlayer.name;
-    newResult.team = transferPlayer.team;
-  }
-
-  allowDrop(ev) {
-    ev.preventDefault();
-  }
-
   public sortByPoints(teams: any[]): any[] {
     if (!teams) {
       return [];
@@ -204,12 +189,48 @@ export class UpdateStandingsComponent implements OnInit {
     });
   }
 
+  public generateRaceStandings() {
+    this.players.forEach((player) => {
+      const raceResult = this.results.find(
+        (result) => result.position == player.currentRacePosition
+      );
+
+      if (player.hasFastestLap) {
+        const fasterLapRaceResult = this.results.find((result) => result.position === 'Fastest lap')
+        raceResult.points += 1;
+        fasterLapRaceResult.name = player.name;
+        fasterLapRaceResult.team = player.team !== 'Res' ? player.team : player.provisionalTeam;;
+      }
+
+      if (player.hasBonusPoint) {
+        const bonusPointRaceResult = this.results.find((result) => result.position === 'Bonus no penalties')
+        raceResult.points += 1;
+        bonusPointRaceResult.name = player.name;
+        bonusPointRaceResult.team = player.team !== 'Res' ? player.team : player.provisionalTeam;;
+      }
+
+      const teamRaceResult = this.teams.find((team) => team.name === (player.team !== 'Res' ? player.team : player.provisionalTeam));
+      if (raceResult) {
+        raceResult.name = player.name;
+        raceResult.team = player.team !== 'Res' ? player.team : player.provisionalTeam;
+        //update player
+        player.points += raceResult.points;
+        //update team
+        teamRaceResult.points += raceResult.points;
+      }
+    });
+  }
+
   generatePlayerStandings() {
     this.sortByPoints(this.players).forEach((player, index) => {
       const oldPlayerIndex = this.oldPlayers.findIndex(
         (oldPlayer) => oldPlayer.name === player.name
       );
       player.gain = oldPlayerIndex - index;
+      player.hasFastestLap = false;
+      player.hasBonusPoint = false;
+      player.currentRacePosition = undefined;
+      player.provisionalTeam = undefined;
     });
 
     this.copyStringToClipboard(JSON.stringify(this.players));
@@ -241,4 +262,41 @@ export class UpdateStandingsComponent implements OnInit {
     // Remove temporary element
     document.body.removeChild(el);
   }
+
+  // drag(event) {
+  //   const playerName = event.target.children[1].textContent;
+  //   const playerJson = this.players.find(
+  //     (player) => player.name === playerName
+  //   );
+  //   event.dataTransfer.setData('text/plain', JSON.stringify(playerJson));
+  // }
+
+  // drop(event) {
+  //   const transferPlayer = JSON.parse(
+  //     event.dataTransfer.getData('text/plain')
+  //   ) as PlayerRank;
+  //   const newPosition =
+  //     event.target.parentElement.children[0].children[1].textContent;
+  //   const newResult = this.results.find(
+  //     (result) => result.position == newPosition
+  //   );
+
+  //   // update team standings
+  //   this.teams.find((team) => team.name === transferPlayer.team).points +=
+  //     newResult.points;
+
+  //   // update general standings
+  //   const playerFound = this.players.find(
+  //     (player) => player.name === transferPlayer.name
+  //   );
+  //   playerFound.points += newResult.points;
+
+  //   // update race standings
+  //   newResult.name = transferPlayer.name;
+  //   newResult.team = transferPlayer.team;
+  // }
+
+  // allowDrop(ev) {
+  //   ev.preventDefault();
+  // }
 }

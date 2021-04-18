@@ -8,8 +8,11 @@
     </tr>
     <tr *ngFor="let player of players; index as i">
       <td>{{ player.name }}</td>
-      <td>
+      <td *ngIf="player.team !== 'Res'">
         <img class="car" src="assets/{{ player.team }}.png" />
+      </td>
+      <td *ngIf="player.team === 'Res'">
+        {{player.team}}
       </td>
       <td>{{ player.penaltyPoints }}</td>
       <td>{{ player.nextRacePenalty }}</td>

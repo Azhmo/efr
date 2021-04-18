@@ -1,6 +1,7 @@
 export interface Player {
   name: string;
   team: F1Team;
+  country: string;
 }
 
 export type F1Team =
@@ -14,13 +15,18 @@ export type F1Team =
   | 'Toro Rosso'
   | 'Haas'
   | 'Williams'
-  | '-';
+  | '-'
+  | 'Res';
 
 export interface PlayerRank extends Player {
   gain: number;
   points: number;
   penaltyPoints: number;
   nextRacePenalties: string;
+  currentRacePosition?: number;
+  hasFastestLap?: boolean;
+  hasBonusPoint?: boolean;
+  provisionalTeam?: F1Team;
 }
 
 export interface F1TeamRank {
