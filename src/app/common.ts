@@ -34,3 +34,11 @@ export interface F1TeamRank {
   gain: number;
   points: number;
 }
+
+export interface F1Track {
+  name: string,
+  flag: string,
+}
+export interface F1CalendarTrack extends F1Track {
+  date?: Date;
+}
