@@ -1,23 +1,23 @@
 [{
   "name": "Williams",
   "gain": 0,
-  "points": 533
+  "points": 566
 }, {
   "name": "Ferrari",
   "gain": 0,
-  "points": 333
-}, {
-  "name": "Alfa Romeo",
-  "gain": 0,
-  "points": 256
+  "points": 341
 }, {
   "name": "McLaren",
   "gain": 1,
-  "points": 232
+  "points": 263
+}, {
+  "name": "Alfa Romeo",
+  "gain": -1,
+  "points": 258
 }, {
   "name": "Renault",
-  "gain": -1,
-  "points": 227
+  "gain": 0,
+  "points": 237
 }, {
   "name": "Mercedes",
   "gain": 0,
@@ -31,11 +31,11 @@
   "gain": 0,
   "points": 104
 }, {
-  "name": "Racing Point",
-  "gain": 0,
-  "points": 65
-}, {
   "name": "RedBull",
-  "gain": 0,
-  "points": 49
+  "gain": 1,
+  "points": 68
+}, {
+  "name": "Racing Point",
+  "gain": -1,
+  "points": 65
 }]
