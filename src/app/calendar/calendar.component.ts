@@ -1,4 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { F1CalendarTrack } from '../common';
+import { HttpService } from '../http/http.service';
 
 @Component({
   selector: 'app-calendar',
@@ -7,7 +9,17 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
 })
 export class CalendarComponent implements OnInit {
-  constructor() {}
+  calendarTracks: F1CalendarTrack[];
+  constructor(private httpService: HttpService) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.httpService.getTracks().subscribe((response) => {
+      this.calendarTracks = response.filter((track) => !!track.date).map((track) => {
+        return {
+          ...track,
+          date: new Date(track.date),
+        }
+      }).sort((a, b) => a.date.getTime() - b.date.getTime());
+    });
+  }
 }

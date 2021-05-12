@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'standings', component: StandingsComponent },
   { path: 'constructor-standings', component: ConstructorStandingsComponent },
   { path: 'calendar', component: CalendarComponent },
-  { path: 'calendar-next-season', component: CalendarNextSeasonComponent },
+  // { path: 'calendar-next-season', component: CalendarNextSeasonComponent },
   { path: 'update', component: UpdateStandingsComponent },
   { path: 'random', component: RandomTeamComponent },
   { path: 'penalties', component: PenaltiesComponent },
