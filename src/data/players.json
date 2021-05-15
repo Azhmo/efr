@@ -165,7 +165,7 @@
   "gain": -5,
   "points": 0,
   "penaltyPoints": 0,
-  "nextRacePenalty": "Warning x1",
+  "nextRacePenalty": "Qualy ban",
   "hasFastestLap": false,
   "hasBonusPoint": false
 }, {
@@ -195,16 +195,6 @@
   "gain": -4,
   "points": 0,
   "penaltyPoints": 1,
-  "nextRacePenalty": "",
-  "hasFastestLap": false,
-  "hasBonusPoint": false
-}, {
-  "name": "Marious2413",
-  "country": "ro",
-  "team": "Alpha Tauri",
-  "gain": -4,
-  "points": 0,
-  "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
   "hasBonusPoint": false
@@ -302,16 +292,6 @@
   "name": "reallonelyxd",
   "country": "Rs",
   "team": "Res",
-  "gain": -1,
-  "points": 0,
-  "penaltyPoints": 0,
-  "nextRacePenalty": "",
-  "hasFastestLap": false,
-  "hasBonusPoint": false
-}, {
-  "name": "TheNoobG4mer",
-  "country": "De",
-  "team": "Ferrari",
   "gain": -1,
   "points": 0,
   "penaltyPoints": 0,
