@@ -1,5 +1,5 @@
 <div class='wrapper'>
-  <table>
+  <table id='capture'>
     <tr>
       <th style="width: 10%">Incident</th>
       <th style="width: 20%">Drivers</th>
@@ -15,5 +15,6 @@
       <td contenteditable="true">Lap</td>
     </tr>
   </table>
-  <Button (click)="addIncident()">Add incident</Button>
+  <Button class='incident-button' (click)="addIncident()">Add incident</Button>
+  <Button class='incident-button' (click)="saveIncidents()">Save</Button>
 </div>

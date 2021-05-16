@@ -1,4 +1,10 @@
 <div class="wrapper">
+  <Button (click)="generatePlayerStandings()">Generate players</Button>
+  <Button (click)="generateTeamStandings()">Generate teams</Button>
+  <Button (click)="resetResults()">Reset results</Button>
+  <Button (click)="saveStandings()">Save</Button>
+</div>
+<div class="wrapper">
   <table>
     <tr>
       <th>Gamertag</th>
@@ -29,7 +35,7 @@
     </tr>
   </table>
   <button (click)="generateRaceStandings()">Generate race standings</button>
-  <table>
+  <table id='capture-standings'>
     <tr>
       <th width="30%">Position</th>
       <th>Gamertag</th>
@@ -47,9 +53,4 @@
       <td>{{ result.points }}</td>
     </tr>
   </table>
-</div>
-<div class="wrapper">
-  <Button (click)="generatePlayerStandings()">Generate players</Button>
-  <Button (click)="generateTeamStandings()">Generate teams</Button>
-  <Button (click)="resetResults()">Reset results</Button>
 </div>

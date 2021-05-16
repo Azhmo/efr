@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import html2canvas from 'html2canvas';
 import { F1Team, PlayerRank, F1TeamRank } from '../common';
 import { HttpService } from '../http/http.service';
 
@@ -261,6 +262,21 @@ export class UpdateStandingsComponent implements OnInit {
     document.execCommand('copy');
     // Remove temporary element
     document.body.removeChild(el);
+  }
+
+  saveStandings() {
+    let element = document.querySelector("#capture-standings") as HTMLElement;
+    html2canvas(element).then(function (canvas) {
+      // Convert the canvas to blob
+      canvas.toBlob(function (blob) {
+        const now = new Date();
+        // To download directly on browser default 'downloads' location
+        let link = document.createElement("a");
+        link.download = `standings-${now.getDate()}-${now.toLocaleString('default', { month: 'long' })}.png`;
+        link.href = URL.createObjectURL(blob);
+        link.click();
+      }, 'image/png');
+    });
   }
 
   // drag(event) {
