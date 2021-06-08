@@ -9,7 +9,7 @@ import { HttpService } from '../http/http.service';
 })
 export class PenaltiesComponent implements OnInit {
   players: PlayerRank[];
-  constructor(private httpService: HttpService) {}
+  constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
     this.httpService.getPlayersRank().subscribe((response) => {
@@ -20,11 +20,11 @@ export class PenaltiesComponent implements OnInit {
   public sortByPenaltyPoints(players: PlayerRank[]): PlayerRank[] {
     return players.sort((n1, n2) => {
       if (n1.penaltyPoints > n2.penaltyPoints) {
-        return -1;
+        return 1;
       }
 
       if (n1.penaltyPoints < n2.penaltyPoints) {
-        return 1;
+        return -1;
       }
 
       return 0;

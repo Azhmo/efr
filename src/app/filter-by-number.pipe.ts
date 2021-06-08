@@ -16,8 +16,14 @@ export class FilterByNumberPipe implements PipeTransform {
           points: 0,
           team,
           penaltyPoints: 0,
-          nextRacePenalties: '',
+          nextRacePenalty: '',
           country: '',
+          tier: 'gold',
+          raceInvolvement: 0,
+          isCleanDriver: false,
+          hasPenalties: false,
+          consecutiveCleanRaces: 0,
+          isPotentialCleanDriver: true,
         },
       ];
   }

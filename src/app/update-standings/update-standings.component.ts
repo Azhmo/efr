@@ -210,12 +210,25 @@ export class UpdateStandingsComponent implements OnInit {
         bonusPointRaceResult.team = player.team !== 'Res' ? player.team : player.provisionalTeam;;
       }
 
+      if (player.penaltyPoints > 3 || player.nextRacePenalty.indexOf('ban') > -1) {
+        player.isCleanDriver = false;
+        player.isPotentialCleanDriver = false;
+      }
+
+      if (!player.hasPenalties) {
+        player.consecutiveCleanRaces++;
+        if (player.consecutiveCleanRaces === 3 && !player.isCleanDriver && player.isPotentialCleanDriver) {
+          player.isCleanDriver = true;
+        }
+      }
+
       const teamRaceResult = this.teams.find((team) => team.name === (player.team !== 'Res' ? player.team : player.provisionalTeam));
       if (raceResult) {
         raceResult.name = player.name;
         raceResult.team = player.team !== 'Res' ? player.team : player.provisionalTeam;
         //update player
         player.points += raceResult.points;
+        player.raceInvolvement++;
         //update team
         teamRaceResult.points += raceResult.points;
       }

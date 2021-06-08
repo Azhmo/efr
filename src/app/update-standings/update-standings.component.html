@@ -12,6 +12,9 @@
       <th>Position</th>
       <th>Fastest lap ?</th>
       <th>Bonus Point ?</th>
+      <th>Has penalties ?</th>
+      <th>Penalty Points</th>
+      <th>Additional Penalties</th>
     </tr>
     <tr *ngFor="let player of players; index as i">
       <td>{{ player.name }}</td>
@@ -24,13 +27,22 @@
         </select>
       </td>
       <td>
-        <input class="positionInput" type='text' [(ngModel)]="player.currentRacePosition" />
+        <input class="positionInput" type='number' [(ngModel)]="player.currentRacePosition" />
       </td>
       <td>
         <input type='checkbox' [(ngModel)]="player.hasFastestLap" />
       </td>
       <td>
         <input type='checkbox' [(ngModel)]="player.hasBonusPoint" />
+      </td>
+      <td>
+        <input type='checkbox' [(ngModel)]="player.hasPenalties" />
+      </td>
+      <td>
+        <input class="penaltiesInput" type='number' [(ngModel)]="player.penaltyPoints" />
+      </td>
+      <td>
+        <input class="additionalPenalties" type='text' [(ngModel)]="player.nextRacePenalty" />
       </td>
     </tr>
   </table>

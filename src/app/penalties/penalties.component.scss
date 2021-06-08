@@ -1,9 +1,26 @@
 @import './../../colors.scss';
 
 .wrapper {
+  align-items: flex-start;
+
   table {
     td {
       color: $text-primary;
     }
+  }
+
+  .notElligible {
+    color: red;
+  }
+
+  .nameContainer {
+    text-align-last: left;
+  }
+
+  .clean {
+    width: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
   }
 }

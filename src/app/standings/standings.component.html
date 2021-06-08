@@ -13,7 +13,10 @@
         <span class="medal"></span><span class="position">{{ i + 1 }}</span>
       </td>
       <td><img class='country' src={{getCountryFlagFromCode(player.country)}} /></td>
-      <td>{{ player.name }}</td>
+      <td class='nameContainer'>
+        <img *ngIf="player.isCleanDriver" class='clean' src="assets/clean.png" />
+        <span>{{ player.name }}</span>
+      </td>
       <td *ngIf="player.team !== 'Res'">
         <img class="car" src="assets/{{ player.team }}.png" />
       </td>
