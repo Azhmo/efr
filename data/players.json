@@ -7,7 +7,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "SashaAndrei02",
   "country": "Ro",
@@ -17,17 +20,23 @@
   "penaltyPoints": 1,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Frisby II",
   "country": "IE",
   "team": "Haas",
   "gain": 5,
-  "points": 42,
+  "points": 41,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Azhmo14",
   "country": "Ro",
@@ -37,7 +46,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "BG BulBeast",
   "country": "bg",
@@ -47,7 +59,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "XRL Tudy",
   "country": "ro",
@@ -57,7 +72,10 @@
   "penaltyPoints": 4,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "XRL Whippy",
   "country": "SE",
@@ -67,7 +85,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "FT WAAX",
   "country": "Fr",
@@ -77,7 +98,10 @@
   "penaltyPoints": 1,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "ElfinStarfish19",
   "country": "IE",
@@ -87,7 +111,10 @@
   "penaltyPoints": 2,
   "nextRacePenalty": "Warning x1",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "MattVeg7",
   "country": "gb-eng",
@@ -97,7 +124,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "AWRL Apollo",
   "country": "gb",
@@ -107,7 +137,10 @@
   "penaltyPoints": 1,
   "nextRacePenalty": "Warning x1",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Novadi Khalid",
   "country": "De",
@@ -117,7 +150,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "CarelessJackson",
   "country": "Ro",
@@ -127,17 +163,23 @@
   "penaltyPoints": 1,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "AWRL Kevin",
   "country": "nl",
   "team": "Racing Point",
   "gain": -2,
-  "points": 11,
+  "points": 12,
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "HarryBartrum",
   "country": "fr",
@@ -147,7 +189,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Air Max8841",
   "team": "Res",
@@ -157,7 +202,10 @@
   "nextRacePenalty": "",
   "country": "fr",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Croc82",
   "country": "Ro",
@@ -167,7 +215,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "XRL Ultimate",
   "country": "gb",
@@ -177,7 +228,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "ConstantJet1141",
   "country": "gb-wls",
@@ -187,7 +241,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "AlexRO2",
   "country": "Ro",
@@ -197,7 +254,10 @@
   "penaltyPoints": 2,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Calllum8869",
   "country": "gb",
@@ -207,7 +267,10 @@
   "penaltyPoints": 2,
   "nextRacePenalty": "Warning x1",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "II SelbzzSAS II",
   "country": "gb",
@@ -217,7 +280,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "Race ban",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "FCAG Gattuso13",
   "country": "fr",
@@ -227,7 +293,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "DeeperMonster2",
   "country": "ro",
@@ -237,7 +306,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Mihnea11",
   "country": "Ro",
@@ -247,7 +319,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "XRL Waldoe",
   "country": "Fi",
@@ -257,7 +332,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Steffelicious",
   "country": "Nl",
@@ -267,7 +345,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "GGT Verstappen",
   "country": "Nl",
@@ -277,7 +358,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Attwe",
   "country": "Fi",
@@ -287,7 +371,10 @@
   "penaltyPoints": 1,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Zbuggy79",
   "country": "Ro",
@@ -297,7 +384,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Bondreww",
   "country": "Gb",
@@ -307,7 +397,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "XRL Brezy",
   "country": "Gb",
@@ -317,7 +410,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "BeardedBeer",
   "country": "gb-sct",
@@ -327,7 +423,10 @@
   "penaltyPoints": 3,
   "nextRacePenalty": "Race ban",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "reallonelyxd",
   "country": "Rs",
@@ -337,7 +436,10 @@
   "penaltyPoints": 0,
   "nextRacePenalty": "",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "Fletch20201390",
   "team": "Res",
@@ -347,7 +449,10 @@
   "nextRacePenalty": "",
   "country": "gb",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "XRL Asda",
   "team": "Alfa Romeo",
@@ -357,7 +462,10 @@
   "nextRacePenalty": "",
   "country": "gb",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "PreutuBogdan",
   "team": "Res",
@@ -367,7 +475,10 @@
   "nextRacePenalty": "",
   "country": "RO",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }, {
   "name": "BurlierBike9",
   "team": "Ferrari",
@@ -377,5 +488,8 @@
   "nextRacePenalty": "",
   "country": "RO",
   "hasFastestLap": false,
-  "hasBonusPoint": false
+  "hasBonusPoint": false,
+  "tier": "gold",
+  "isCleanDriver": "true",
+  "racesInvolvement": 0
 }]
