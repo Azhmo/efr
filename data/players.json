@@ -11,7 +11,7 @@
   "tier": "gold",
   "isCleanDriver": false,
   "racesInvolvement": 0,
-  "consecutiveCleanRaces": 0,
+  "consecutiveCleanRaces": 1,
   "hasPenalties": false,
   "isPotentialCleanDriver": true,
   "raceInvolvement": null
@@ -62,7 +62,7 @@
   "tier": "gold",
   "isCleanDriver": false,
   "racesInvolvement": 0,
-  "consecutiveCleanRaces": 0,
+  "consecutiveCleanRaces": 1,
   "hasPenalties": false,
   "isPotentialCleanDriver": false,
   "raceInvolvement": null
@@ -229,7 +229,7 @@
   "tier": "gold",
   "isCleanDriver": false,
   "racesInvolvement": 0,
-  "consecutiveCleanRaces": 0,
+  "consecutiveCleanRaces": 1,
   "hasPenalties": false,
   "isPotentialCleanDriver": true,
   "raceInvolvement": null
