@@ -291,41 +291,4 @@ export class UpdateStandingsComponent implements OnInit {
       }, 'image/png');
     });
   }
-
-  // drag(event) {
-  //   const playerName = event.target.children[1].textContent;
-  //   const playerJson = this.players.find(
-  //     (player) => player.name === playerName
-  //   );
-  //   event.dataTransfer.setData('text/plain', JSON.stringify(playerJson));
-  // }
-
-  // drop(event) {
-  //   const transferPlayer = JSON.parse(
-  //     event.dataTransfer.getData('text/plain')
-  //   ) as PlayerRank;
-  //   const newPosition =
-  //     event.target.parentElement.children[0].children[1].textContent;
-  //   const newResult = this.results.find(
-  //     (result) => result.position == newPosition
-  //   );
-
-  //   // update team standings
-  //   this.teams.find((team) => team.name === transferPlayer.team).points +=
-  //     newResult.points;
-
-  //   // update general standings
-  //   const playerFound = this.players.find(
-  //     (player) => player.name === transferPlayer.name
-  //   );
-  //   playerFound.points += newResult.points;
-
-  //   // update race standings
-  //   newResult.name = transferPlayer.name;
-  //   newResult.team = transferPlayer.team;
-  // }
-
-  // allowDrop(ev) {
-  //   ev.preventDefault();
-  // }
 }
