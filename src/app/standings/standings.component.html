@@ -1,32 +1,8 @@
 <div class="wrapper">
   <table>
-    <tr>
-      <th width="10%">Position</th>
-      <th width="10%">Country</th>
-      <th width="30%">Gamertag</th>
-      <th width="20%">Team</th>
-      <th width="20%">+ / -</th>
-      <th width="10%">Points</th>
-    </tr>
     <tr *ngFor="let player of players; index as i">
-      <td>
-        <span class="medal"></span><span class="position">{{ i + 1 }}</span>
-      </td>
-      <td><img class='country' src={{getCountryFlagFromCode(player.country)}} /></td>
-      <td class='nameContainer'>
-        <img *ngIf="player.isCleanDriver" class='clean' src="assets/clean.png" />
-        <span>{{ player.name }}</span>
-      </td>
-      <td *ngIf="player.team !== 'Res'">
-        <img class="car" src="assets/{{ player.team }}.png" />
-      </td>
-      <td *ngIf="player.team === 'Res'">
-        {{player.team}}
-      </td>
-      <td [ngClass]="{ down: player.gain < 0, up: player.gain > 0 }">
-        <span class="arrow"></span>{{ showGain(player.gain) || "-" }}
-      </td>
-      <td>{{ player.points }}</td>
+      <app-card [drivers]="[player]" [position]="i + 1">
+      </app-card>
     </tr>
   </table>
 </div>

@@ -215,12 +215,12 @@ export class UpdateStandingsComponent implements OnInit {
         player.isPotentialCleanDriver = false;
       }
 
-      if (!player.hasPenalties) {
+      if (player.hasCleanRace) {
         player.consecutiveCleanRaces++;
         if (player.consecutiveCleanRaces === 3 && !player.isCleanDriver && player.isPotentialCleanDriver) {
           player.isCleanDriver = true;
         }
-      }
+      } else player.consecutiveCleanRaces = 0;
 
       const teamRaceResult = this.teams.find((team) => team.name === (player.team !== 'Res' ? player.team : player.provisionalTeam));
       if (raceResult) {
@@ -228,7 +228,7 @@ export class UpdateStandingsComponent implements OnInit {
         raceResult.team = player.team !== 'Res' ? player.team : player.provisionalTeam;
         //update player
         player.points += raceResult.points;
-        player.raceInvolvement++;
+        player.raceInvolvement += 1;
         //update team
         teamRaceResult.points += raceResult.points;
       }
@@ -243,9 +243,12 @@ export class UpdateStandingsComponent implements OnInit {
       player.gain = oldPlayerIndex - index;
       player.hasFastestLap = false;
       player.hasBonusPoint = false;
+      player.hasCleanRace = false;
       player.currentRacePosition = undefined;
       player.provisionalTeam = undefined;
     });
+
+    this.httpService.addDrivers(this.players).subscribe();
 
     this.copyStringToClipboard(JSON.stringify(this.players));
   }

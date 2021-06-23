@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../http/http.service';
-import { F1TeamRank } from '../common';
+import { F1TeamRank, PlayerRank } from '../common';
 
 @Component({
   selector: 'app-constructor-standings',
@@ -10,11 +10,16 @@ import { F1TeamRank } from '../common';
 })
 export class ConstructorStandingsComponent implements OnInit {
   teams: F1TeamRank[];
-  constructor(private httpService: HttpService) {}
+  players: PlayerRank[];
+  constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
     this.httpService.getTeamsRank().subscribe((response) => {
       this.teams = this.sortByPoints(response);
+    });
+
+    this.httpService.getPlayersRank().subscribe((response) => {
+      this.players = response;
     });
   }
 

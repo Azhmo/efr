@@ -12,7 +12,7 @@
       <th>Position</th>
       <th>Fastest lap ?</th>
       <th>Bonus Point ?</th>
-      <th>Has penalties ?</th>
+      <th>Clean race ?</th>
       <th>Penalty Points</th>
       <th>Additional Penalties</th>
     </tr>
@@ -36,7 +36,7 @@
         <input type='checkbox' [(ngModel)]="player.hasBonusPoint" />
       </td>
       <td>
-        <input type='checkbox' [(ngModel)]="player.hasPenalties" />
+        <input type='checkbox' [(ngModel)]="player.hasCleanRace" />
       </td>
       <td>
         <input class="penaltiesInput" type='number' [(ngModel)]="player.penaltyPoints" />

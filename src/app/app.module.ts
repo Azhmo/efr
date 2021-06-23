@@ -20,6 +20,7 @@ import { PenaltiesComponent } from './penalties/penalties.component';
 import { LogoComponent } from './logo/logo.component';
 import { IncidentReportComponent } from './incident-report/incident-report.component';
 import { CalendarNextSeasonComponent } from './calendar-next-season/calendar-next-season.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { CalendarNextSeasonComponent } from './calendar-next-season/calendar-nex
     LogoComponent,
     IncidentReportComponent,
     CalendarNextSeasonComponent,
+    CardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [HttpService],

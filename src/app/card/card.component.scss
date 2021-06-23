@@ -1,0 +1,133 @@
+.wrapper {
+  transform: skewX(-10deg);
+  height: 125px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-radius: 16px;
+  position: relative;
+  padding: 0 30px;
+  margin: 25px;
+  margin-bottom: 50px;
+
+  &.presentational {
+
+    .position,
+    .gain,
+    .points-wrapper {
+      display: none;
+    }
+  }
+
+  &.team-card {
+    padding: 20px 30px;
+  }
+
+  .gain {
+    .arrow {
+      width: 30px;
+      height: 20px;
+    }
+
+    font-size: 20px;
+    position: absolute;
+    top: -40px;
+    right: 20px;
+  }
+
+  .country {
+    width: 50px;
+  }
+
+  .points-wrapper {
+    transform: skewX(10deg);
+    font-size: 50px;
+  }
+
+  .team-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: skewX(10deg);
+
+    .car {
+      width: 60px;
+      font-size: 30px;
+    }
+  }
+
+  .drivers-wrapper {
+    transform: skewX(10deg);
+    display: flex;
+    flex-direction: column;
+
+    .name-wrapper {
+
+      display: flex;
+
+      p {
+        font-size: 20px;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .position {
+    transform: skewX(10deg);
+    font-size: 60px;
+    position: absolute;
+    top: -95px;
+    left: 60px;
+  }
+
+  &.RedBull {
+    background-image: linear-gradient(to right, #FF621c, #FDFC03);
+  }
+
+  &.Ferrari {
+    background-image: linear-gradient(to right, #82010A, #FA021E);
+  }
+
+  &.Mercedes {
+    background-image: linear-gradient(to right, #014146, #03bfb5);
+  }
+
+  &.McLaren {
+    background-image: linear-gradient(to right, #035EDB, #ff9700);
+  }
+
+  &.Williams {
+    background-image: linear-gradient(to right, #0921B7, #00a2de);
+  }
+
+  &.Alpha-Tauri {
+    background-image: linear-gradient(to right, #202e3c, #B8BDBE);
+  }
+
+  &.Alfa-Romeo {
+    background-image: linear-gradient(to right, #BF2052, #8b0025);
+  }
+
+  &.Racing-Point {
+    background-image: linear-gradient(to right, #0E60C9, #f5afdb);
+  }
+
+  &.Haas {
+    background-image: linear-gradient(to right, #005BA5, #E52027);
+  }
+
+  &.Renault {
+    background-image: linear-gradient(to right, #EFD044, #F7E700);
+  }
+
+  &.Res {
+    background-image: linear-gradient(to right, #00302d, #00dfd1);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .wrapper {
+    width: 80%;
+  }
+}

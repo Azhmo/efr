@@ -2,13 +2,14 @@
 
 .navbar {
   display: flex;
-  background-color: $primary;
-  color: $secondary;
+  background-color: $background;
+  color: white;
   box-shadow: none;
   padding: 24px;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 
   .logo-wrapper {
     margin-right: 50px;
@@ -25,15 +26,34 @@
   }
 
   a {
+    display: inline-block;
+    margin: 10px;
     vertical-align: middle;
-    color: $secondary;
+    color: white;
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
-    margin: 0 10px;
 
-    &.nav-link:hover {
-      text-decoration: underline;
+    &.nav-link {
+      transform: skewX(-10deg);
+      padding: 10px;
+      background-color: white;
+      border-radius: 8px;
+      color: #525161;
+      padding: 15px 20px;
+
+      span {
+        transform: skewX(10deg);
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.active-link {
+        background-image: linear-gradient(#DC0F29, #8F010E);
+        color: white;
+      }
     }
   }
 }

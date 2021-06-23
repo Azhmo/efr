@@ -30,7 +30,7 @@ export interface PlayerRank extends Player {
   isCleanDriver: boolean;
   raceInvolvement: number;
   tier: EFRTier;
-  hasPenalties: boolean;
+  hasCleanRace: boolean;
   consecutiveCleanRaces: number;
   isPotentialCleanDriver: boolean;
 }

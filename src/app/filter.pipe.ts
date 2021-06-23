@@ -21,7 +21,7 @@ export class FilterPipe implements PipeTransform {
           tier: 'gold',
           raceInvolvement: 0,
           isCleanDriver: false,
-          hasPenalties: false,
+          hasCleanRace: false,
           consecutiveCleanRaces: 0,
           isPotentialCleanDriver: true,
         },

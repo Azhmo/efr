@@ -49,13 +49,13 @@ body {
 }
 
 table {
-  width: 700px;
+  width: 800px;
   border-collapse: collapse;
 }
 
 th {
-  background-color: $primary;
-  color: $secondary;
+  background-image: linear-gradient(#DC0F29, #8F010E);
+  color: white;
   box-shadow: none;
 }
 
@@ -75,40 +75,8 @@ th {
   padding: 8px;
 }
 
-tr:nth-child(2),
-tr:nth-child(3),
-tr:nth-child(4) {
-  .position {
-    display: none;
-  }
-}
-
-tr:nth-child(2) {
-  color: #ffc000;
-
-  .medal::before {
-    content: "🥇";
-  }
-}
-
 .car {
   width: 30px;
-}
-
-tr:nth-child(3) {
-  color: #adadad;
-
-  .medal::before {
-    content: "🥈";
-  }
-}
-
-tr:nth-child(4) {
-  color: #b8580e;
-
-  .medal::before {
-    content: "🥉";
-  }
 }
 
 .arrow {
@@ -139,10 +107,6 @@ tr:nth-child(4) {
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
-}
-
-.medal {
-  font-size: 20px;
 }
 
 .up {

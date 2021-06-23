@@ -18,14 +18,6 @@ export class StandingsComponent implements OnInit {
     });
   }
 
-  public showGain(gain: number): number {
-    return Math.abs(gain);
-  }
-
-  public getCountryFlagFromCode(countryCode: string) {
-    return `https://lipis.github.io/flag-icon-css/flags/4x3/${countryCode.toLowerCase()}.svg`;
-  }
-
   public sortByPoints(players: PlayerRank[]): PlayerRank[] {
     return players.sort((n1, n2) => {
       if (n1.points > n2.points) {
