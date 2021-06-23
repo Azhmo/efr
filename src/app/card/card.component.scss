@@ -1,14 +1,14 @@
 .wrapper {
   transform: skewX(-10deg);
-  height: 125px;
+  height: 95px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   color: white;
   border-radius: 16px;
   position: relative;
-  padding: 0 30px;
-  margin: 25px;
+  padding: 0 20px;
+  margin: 15px;
   margin-bottom: 50px;
 
   &.presentational {
@@ -21,7 +21,7 @@
   }
 
   &.team-card {
-    padding: 20px 30px;
+    padding: 15px 20px;
   }
 
   .gain {
@@ -37,12 +37,12 @@
   }
 
   .country {
-    width: 50px;
+    width: 30px;
   }
 
   .points-wrapper {
     transform: skewX(10deg);
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .team-wrapper {
@@ -52,7 +52,7 @@
     transform: skewX(10deg);
 
     .car {
-      width: 60px;
+      width: 40px;
       font-size: 30px;
     }
   }
@@ -67,18 +67,18 @@
       display: flex;
 
       p {
-        font-size: 20px;
-        margin-left: 15px;
+        font-size: 15px;
+        margin-left: 10px;
       }
     }
   }
 
   .position {
     transform: skewX(10deg);
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
-    top: -95px;
-    left: 60px;
+    top: -70px;
+    left: 40px;
   }
 
   &.RedBull {
