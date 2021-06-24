@@ -1,7 +1,6 @@
 .wrapper {
   transform: skewX(-10deg);
   height: 95px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   color: white;
@@ -64,7 +63,7 @@
     flex-direction: column;
 
     .name-wrapper {
-
+      width: 200px;
       display: flex;
       justify-content: flex-start;
       align-items: center;
