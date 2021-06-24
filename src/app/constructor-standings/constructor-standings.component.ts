@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../http/http.service';
 import { F1TeamRank, PlayerRank } from '../common';
+import { forkJoin } from 'rxjs';
 
 @Component({
   selector: 'app-constructor-standings',
@@ -11,16 +12,15 @@ import { F1TeamRank, PlayerRank } from '../common';
 export class ConstructorStandingsComponent implements OnInit {
   teams: F1TeamRank[];
   players: PlayerRank[];
+  loading: boolean;
   constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
-    this.httpService.getTeamsRank().subscribe((response) => {
-      this.teams = this.sortByPoints(response);
-    });
-
-    this.httpService.getPlayersRank().subscribe((response) => {
-      this.players = response;
-    });
+    this.loading = true;
+    forkJoin([this.httpService.getTeamsRank(), this.httpService.getPlayersRank()]).subscribe((response) => {
+      this.teams = this.sortByPoints(response[0]);
+      this.players = response[1];
+    }, (err) => console.log(err), () => this.loading = false);
   }
 
   public showGain(gain: number): number {

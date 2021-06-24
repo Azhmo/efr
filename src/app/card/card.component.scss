@@ -38,6 +38,7 @@
 
   .country {
     width: 30px;
+    height: 23px;
   }
 
   .points-wrapper {
@@ -65,6 +66,8 @@
     .name-wrapper {
 
       display: flex;
+      justify-content: flex-start;
+      align-items: center;
 
       p {
         font-size: 15px;

@@ -1,5 +1,6 @@
 <div class="wrapper" *ngIf="players && teams">
-  <table>
+  <mat-progress-spinner color='white' *ngIf='loading' mode='indeterminate' diameter='50'></mat-progress-spinner>
+  <table *ngIf='!loading'>
     <tr *ngFor="let team of teams">
       <app-card [isPresentational]="true" [f1Team]='team' [drivers]="players | filterByTeam: team.name"></app-card>
     </tr>

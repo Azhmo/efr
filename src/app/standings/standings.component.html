@@ -1,5 +1,6 @@
 <div class="wrapper">
-  <table>
+  <mat-progress-spinner color='white' *ngIf='loading' mode='indeterminate' diameter='50'></mat-progress-spinner>
+  <table *ngIf='!loading'>
     <tr *ngFor="let player of players; index as i">
       <app-card [drivers]="[player]" [position]="i + 1">
       </app-card>

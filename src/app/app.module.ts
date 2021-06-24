@@ -21,6 +21,7 @@ import { LogoComponent } from './logo/logo.component';
 import { IncidentReportComponent } from './incident-report/incident-report.component';
 import { CalendarNextSeasonComponent } from './calendar-next-season/calendar-next-season.component';
 import { CardComponent } from './card/card.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { CardComponent } from './card/card.component';
     CalendarNextSeasonComponent,
     CardComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule, MatProgressSpinnerModule],
   providers: [HttpService],
   bootstrap: [AppComponent],
 })

@@ -10,12 +10,14 @@ import { PlayerRank } from '../common';
 })
 export class StandingsComponent implements OnInit {
   players: PlayerRank[];
+  loading: boolean;
   constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
+    this.loading = true
     this.httpService.getPlayersRank().subscribe((response) => {
       this.players = this.sortByPoints(response);
-    });
+    }, (err) => console.log(err), () => this.loading = false);
   }
 
   public sortByPoints(players: PlayerRank[]): PlayerRank[] {
