@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import html2canvas from 'html2canvas';
+import { forkJoin } from 'rxjs';
 import { F1Team, PlayerRank, F1TeamRank } from '../common';
 import { HttpService } from '../http/http.service';
 
@@ -248,9 +249,14 @@ export class UpdateStandingsComponent implements OnInit {
       player.provisionalTeam = undefined;
     });
 
-    this.httpService.addDrivers(this.players).subscribe();
+    this.sortByPoints(this.teams).forEach((team, index) => {
+      const oldTeamIndex = this.oldTeams.findIndex(
+        (oldTeam) => oldTeam.name === team.name
+      );
+      team.gain = oldTeamIndex - index;
+    });
 
-    this.copyStringToClipboard(JSON.stringify(this.players));
+    forkJoin([this.httpService.addDrivers(this.players), this.httpService.addTeams(this.teams)]).subscribe();
   }
 
   generateTeamStandings() {
@@ -260,6 +266,8 @@ export class UpdateStandingsComponent implements OnInit {
       );
       team.gain = oldTeamIndex - index;
     });
+
+
 
     this.copyStringToClipboard(JSON.stringify(this.teams));
   }

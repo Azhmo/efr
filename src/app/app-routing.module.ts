@@ -10,6 +10,9 @@ import { RandomTeamComponent } from './random-team/random-team.component';
 import { PenaltiesComponent } from './penalties/penalties.component';
 import { LogoComponent } from './logo/logo.component';
 import { IncidentReportComponent } from './incident-report/incident-report.component';
+import { DriverDetailsComponent } from './adm/driver-details/driver-details.component';
+import { ListDriversComponent } from './adm/list-drivers/list-drivers.component';
+import { ListTracksComponent } from './adm/list-tracks/list-tracks.component';
 
 const routes: Routes = [
   { path: 'standings', component: StandingsComponent },
@@ -22,6 +25,10 @@ const routes: Routes = [
   { path: 'logo', component: LogoComponent },
   { path: 'incidents', component: IncidentReportComponent },
   { path: '', component: HomeComponent },
+  { path: 'adm/driver/:id', component: DriverDetailsComponent },
+  { path: 'adm/driver', component: DriverDetailsComponent },
+  { path: 'adm/drivers', component: ListDriversComponent },
+  { path: 'adm/tracks', component: ListTracksComponent },
 ];
 
 @NgModule({

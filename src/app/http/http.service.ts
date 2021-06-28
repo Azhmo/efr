@@ -9,17 +9,16 @@ export class HttpService {
   constructor(private http: HttpClient) { }
   originUrl = 'https://efr-be.herokuapp.com';
 
-  playersUrl = `${this.originUrl}/api/drivers`;
-  teamsUrl = `${this.originUrl}/api/teams`;
+  driversUrl = `${this.originUrl}/api/drivers`;
+  trackUrl = `${this.originUrl}/api/track`;
   tracksUrl = `${this.originUrl}/api/tracks`;
-  addTracksUrl = `${this.originUrl}/api/addTrack`;
-  addDriverUrl = `${this.originUrl}/api/addDriver`;
-  addDriversUrl = `${this.originUrl}/api/addDrivers`;
+  driverUrl = `${this.originUrl}/api/driver`;
   addTeamUrl = `${this.originUrl}/api/addTeam`;
   addTeamsUrl = `${this.originUrl}/api/addTeams`;
+  teamsUrl = `${this.originUrl}/api/teams`;
 
   getPlayersRank(): Observable<PlayerRank[]> {
-    return this.http.get<PlayerRank[]>(this.playersUrl);
+    return this.http.get<PlayerRank[]>(this.driversUrl);
   }
 
   getTeamsRank(): Observable<F1TeamRank[]> {
@@ -30,16 +29,24 @@ export class HttpService {
     return this.http.get<F1CalendarTrack[]>(this.tracksUrl);
   }
 
-  addTracks(track: F1CalendarTrack): Observable<F1CalendarTrack[]> {
-    return this.http.post<F1CalendarTrack[]>(this.addTracksUrl, track);
+  addTrack(track: F1CalendarTrack): Observable<F1CalendarTrack[]> {
+    return this.http.post<F1CalendarTrack[]>(this.trackUrl, track);
   }
 
   addDriver(driver: PlayerRank): Observable<PlayerRank[]> {
-    return this.http.post<PlayerRank[]>(this.addDriverUrl, driver);
+    return this.http.post<PlayerRank[]>(this.driverUrl, driver);
+  }
+
+  getDriver(id: string): Observable<PlayerRank> {
+    return this.http.get<PlayerRank>(`${this.driverUrl}/${id}`);
+  }
+
+  deleteDriver(id: string): Observable<PlayerRank> {
+    return this.http.delete<PlayerRank>(`${this.driverUrl}/${id}`);
   }
 
   addDrivers(drivers: PlayerRank[]): Observable<PlayerRank[]> {
-    return this.http.post<PlayerRank[]>(this.addDriversUrl, drivers);
+    return this.http.post<PlayerRank[]>(this.driverUrl, drivers);
   }
 
   addTeam(team: F1TeamRank): Observable<F1TeamRank[]> {

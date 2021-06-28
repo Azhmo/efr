@@ -22,6 +22,9 @@ import { IncidentReportComponent } from './incident-report/incident-report.compo
 import { CalendarNextSeasonComponent } from './calendar-next-season/calendar-next-season.component';
 import { CardComponent } from './card/card.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { DriverDetailsComponent } from './adm/driver-details/driver-details.component';
+import { ListDriversComponent } from './adm/list-drivers/list-drivers.component';
+import { ListTracksComponent } from './adm/list-tracks/list-tracks.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +44,9 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     IncidentReportComponent,
     CalendarNextSeasonComponent,
     CardComponent,
+    DriverDetailsComponent,
+    ListDriversComponent,
+    ListTracksComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule, MatProgressSpinnerModule],
   providers: [HttpService],
