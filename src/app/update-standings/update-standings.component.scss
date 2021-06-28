@@ -1,3 +1,5 @@
+@import './../../colors.scss';
+
 .wrapper {
   align-items: flex-start;
   justify-content: space-between;
@@ -8,5 +10,9 @@
 
   .teamSelect {
     width: 100px;
+  }
+
+  #capture-standings {
+    background-color: $background;
   }
 }
