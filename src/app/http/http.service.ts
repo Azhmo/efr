@@ -46,7 +46,7 @@ export class HttpService {
   }
 
   addDrivers(drivers: PlayerRank[]): Observable<PlayerRank[]> {
-    return this.http.post<PlayerRank[]>(this.driverUrl, drivers);
+    return this.http.post<PlayerRank[]>(this.driversUrl, drivers);
   }
 
   addTeam(team: F1TeamRank): Observable<F1TeamRank[]> {

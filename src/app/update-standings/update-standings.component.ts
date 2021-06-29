@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import html2canvas from 'html2canvas';
 import { forkJoin } from 'rxjs';
 import { F1Team, PlayerRank, F1TeamRank } from '../common';
@@ -24,7 +25,7 @@ export class UpdateStandingsComponent implements OnInit {
   teams: F1TeamRank[];
   oldTeams: F1TeamRank[];
 
-  constructor(private httpService: HttpService) { }
+  constructor(private httpService: HttpService, private router: Router) { }
 
   ngOnInit(): void {
     this.httpService.getTeamsRank().subscribe((response) => {
@@ -256,7 +257,8 @@ export class UpdateStandingsComponent implements OnInit {
       team.gain = oldTeamIndex - index;
     });
 
-    forkJoin([this.httpService.addDrivers(this.players), this.httpService.addTeams(this.teams)]).subscribe();
+    forkJoin([this.httpService.addDrivers(this.players), this.httpService.addTeams(this.teams)]).subscribe(
+      () => this.router.navigate(['/standings']));
   }
 
   generateTeamStandings() {
